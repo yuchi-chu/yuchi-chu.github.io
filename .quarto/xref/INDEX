@@ -1,0 +1,20 @@
+{
+  "about.qmd": {
+    "about.html": "0ae7c856"
+  },
+  "index.qmd": {
+    "index.html": "75bd6ebe"
+  },
+  "posts/2022-03-12-shrinking-glaciers/index.qmd": {
+    "index.html": "a36cff69"
+  },
+  "posts.qmd": {
+    "posts.html": "fb2eb889"
+  },
+  "posts/2022-04-12-shrinking-glaciers/index.qmd": {
+    "index.html": "01deeb72"
+  },
+  "pubs.qmd": {
+    "pubs.html": "604a8661"
+  }
+}

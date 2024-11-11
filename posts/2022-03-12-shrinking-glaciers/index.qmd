@@ -1,0 +1,10 @@
+---
+title: "Losing icons: Disappearing glaciers of Glacier National Park, MT (1966 - 2015)"
+author: "Allison Horst"
+date: '2022-03-11'
+format: 
+  html:
+    code-fold: true
+featured: no
+---
+

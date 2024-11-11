@@ -1,0 +1,15 @@
+---
+title: "這是第二篇文章"
+author: "Yuchi Chu"
+date: '2022-04-11'
+format: 
+  html:
+    code-fold: true
+featured: no
+---
+
+# 測試部落格的內容
+
+R 是個協作計劃，有許多人為之做出了貢獻。
+用 'contributors()' 來看詳細的情況以及
+用 'citation()' 會告訴您如何在出版品中正確地參照 R 或 R 套件。
