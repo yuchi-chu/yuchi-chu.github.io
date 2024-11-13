@@ -1,8 +1,8 @@
 {
-  "hash": "5e9e3149dbc2eac76af4e21e44046af8",
+  "hash": "0f0e7038c7b9edae1df51c7cad258c8f",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Yuchi-05\"\nabout:\n  template: trestles\n  image: yu-4.png\n---\n\n\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "markdown": "--- \ntitle: \"Yuchi-05\" \nabout: \n  template: trestles \n  image: images/yu-4.png \n---\n\n\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto visit <https://quarto.org/docs/websites>.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
