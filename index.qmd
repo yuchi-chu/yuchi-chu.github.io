@@ -5,10 +5,7 @@ about:
   image: images/yu-4.png 
 ---
 
-This is a Quarto website.
+施工中……<br>
+Under Construction.
 
-To learn more about Quarto visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
-```

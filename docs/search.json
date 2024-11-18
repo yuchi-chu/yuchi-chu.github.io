@@ -4,42 +4,49 @@
     "href": "pubs.html",
     "title": "論文著作",
     "section": "",
-    "text": "博士論文：Intregrating Heterogeneous Information Sources through Ontology-Driven Model and Data Quality Analysis, 國立臺灣科技大學 電子工程研究所 計算機組 （2001）\n碩士論文：一個軟體系統時間限制的驗證方法, 國立臺灣工業技術學院 工程技術研究所（1993）"
-  },
-  {
-    "objectID": "pubs.html#學位論文",
-    "href": "pubs.html#學位論文",
-    "title": "論文著作",
-    "section": "",
-    "text": "博士論文：Intregrating Heterogeneous Information Sources through Ontology-Driven Model and Data Quality Analysis, 國立臺灣科技大學 電子工程研究所 計算機組 （2001）\n碩士論文：一個軟體系統時間限制的驗證方法, 國立臺灣工業技術學院 工程技術研究所（1993）"
+    "text": "Neng-Huei Lin et al. “An overview of regional experiments on biomass burning aerosols and related pollutants in Southeast Asia: From BASE-ASIA and the Dongsha Experiment to 7-SEAS,(https://www.sciencedirect.com/science/article/pii/S1352231013003300)” Atmospheric Environment, Volume 78, (2013) 1-19. [LINK]"
   },
   {
     "objectID": "pubs.html#期刊論文",
     "href": "pubs.html#期刊論文",
     "title": "論文著作",
-    "section": "期刊論文",
-    "text": "期刊論文\n\nNeng-Huei Lin et al. “An overview of regional experiments on biomass burning aerosols and related pollutants in Southeast Asia: From BASE-ASIA and the Dongsha Experiment to 7-SEAS,” Atmospheric Environment, Volume 78, (2013) 1-19."
+    "section": "",
+    "text": "Neng-Huei Lin et al. “An overview of regional experiments on biomass burning aerosols and related pollutants in Southeast Asia: From BASE-ASIA and the Dongsha Experiment to 7-SEAS,(https://www.sciencedirect.com/science/article/pii/S1352231013003300)” Atmospheric Environment, Volume 78, (2013) 1-19. [LINK]"
   },
   {
     "objectID": "pubs.html#會議論文",
     "href": "pubs.html#會議論文",
     "title": "論文著作",
     "section": "會議論文",
-    "text": "會議論文\n\nY. C. Chu, “A Multi-layered System Architecture for Environmental Monitoring Data Management – Taiwan’s Experience,” Submitted to 21st International Conference of Informatics for Environmental Protection, Warsaw, Poland (2007).\nY. C. Chu, S. M. Huang, C. C. Lien, C. C. Yung, “An Ontology-Driven Approach for Harmonizing and Integrating Environmental Information,” Submitted to 21st International Conference of Informatics for Environmental Protection, Warsaw, Poland (2007)."
+    "text": "會議論文\n\nSu-mei Huang and Yu-Chi Chu, “An operation and business model to exchange and open environmental data,” EnviroInfo & ICT4S, Copenhagen, Denmark (2015) 207-208. [LINK] [PDF]\nY. C. Chu, “A Multi-layered System Architecture for Environmental Monitoring Data Management – Taiwan’s Experience,” Submitted to 21st International Conference of Informatics for Environmental Protection, Warsaw, Poland (2007).\nY. C. Chu, S. M. Huang, C. C. Lien, C. C. Yung, “An Ontology-Driven Approach for Harmonizing and Integrating Environmental Information,” Submitted to 21st International Conference of Informatics for Environmental Protection, Warsaw, Poland (2007)."
+  },
+  {
+    "objectID": "pubs.html#學位論文",
+    "href": "pubs.html#學位論文",
+    "title": "論文著作",
+    "section": "學位論文",
+    "text": "學位論文\n\n博士論文：Intregrating Heterogeneous Information Sources through Ontology-Driven Model and Data Quality Analysis, 國立臺灣科技大學 電子工程研究所 計算機組 （2001）\n碩士論文：一個軟體系統時間限制的驗證方法, 國立臺灣工業技術學院 工程技術研究所（1993）"
   },
   {
     "objectID": "posts/2022-04-12-shrinking-glaciers/index.html",
     "href": "posts/2022-04-12-shrinking-glaciers/index.html",
-    "title": "這是第二篇文章",
+    "title": "臺灣遭受網路攻擊的次數？",
     "section": "",
-    "text": "測試部落格的內容\nR 是個協作計劃，有許多人為之做出了貢獻。 用 ‘contributors()’ 來看詳細的情況以及 用 ‘citation()’ 會告訴您如何在出版品中正確地參照 R 或 R 套件。"
+    "text": "為了凸顯資通安全的重要，除了高舉「資安就是國安」這種口號外，公部門、學界及所謂的資安產業界最常用的招數，就是標榜臺灣是遭受網路攻擊的「重災區」。究竟臺灣被網路攻擊的次數是多少呢？以下是幾種說法："
+  },
+  {
+    "objectID": "posts/2022-04-12-shrinking-glaciers/index.html#footnotes",
+    "href": "posts/2022-04-12-shrinking-glaciers/index.html#footnotes",
+    "title": "臺灣遭受網路攻擊的次數？",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n立法院第10屆第4會期內政委員會第14次全體委員會議紀錄，中華民國110年11月10日↩︎\n行政院國家資通安全會報技術服中心，110年資通安全技術年報，中華民國111年7月，p.19↩︎\nhttps://www.youtube.com/watch?v=qMHsJGn5tc8 Accessed:2024.07.18↩︎\nhttps://pansci.asia/archives/331019 這篇報導係轉載科技大觀園網站：曾繁安，物聯網的資安攻防大戰！臺灣該如何見招拆招？Accessed:2024.07.18；原文並未提及「每分鐘15次駭客攻擊」。↩︎\n自由時報 2022/11/07, https://ec.ltn.com.tw/article/breakingnews/4115381 Accessed:2024.07.18↩︎\nSpafford, E., L. Metcalf, J. Dykstra, Cybersecurity Myths and Misconceptions ( Chapter 14: Lies, Damn Lies, and Statistics), Addison-Wesley, 2023.↩︎\n丹‧賈德納（Dan Gardner）, 李靜怡、黃慧慧譯，販賣恐懼-脫軌的風險判斷，博雅書屋，p.173, 台北，2009.↩︎"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Yuchi-05",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "施工中…… Under Construction."
   },
   {
     "objectID": "about.html",
@@ -53,6 +60,6 @@
     "href": "posts.html",
     "title": "Blog posts",
     "section": "",
-    "text": "這是第二篇文章\n\n\n\n\n\n\n\n\n\n\n\nApr 11, 2022\n\n\nYuchi Chu\n\n\n\n\n\n\n\n\n\n\n\n\nLosing icons: Disappearing glaciers of Glacier National Park, MT (1966 - 2015)\n\n\n\n\n\n\n\n\n\n\n\nMar 11, 2022\n\n\nAllison Horst\n\n\n\n\n\n\nNo matching items"
+    "text": "臺灣遭受網路攻擊的次數？\n\n\n\n\n\n\n\n\n\n\n\nApr 11, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nLosing icons: Disappearing glaciers of Glacier National Park, MT (1966 - 2015)\n\n\n\n\n\n\n\n\n\n\n\nMar 11, 2022\n\n\nAllison Horst\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -6,18 +6,21 @@ description: Publications
 #title-block-banner: "#343a40" #bs-gray-800
 ---
 
+
+## 期刊論文
+
+1.  Neng-Huei Lin et al. "An overview of regional experiments on biomass burning aerosols and related pollutants in Southeast Asia: From BASE-ASIA and the Dongsha Experiment to 7-SEAS,(https://www.sciencedirect.com/science/article/pii/S1352231013003300)" Atmospheric Environment, Volume 78, (2013) 1-19. [[LINK]](https://www.sciencedirect.com/science/article/pii/S1352231013003300)
+
+## 會議論文
+
+1. Su-mei Huang and Yu-Chi Chu, "An operation and business model to exchange and open environmental data," *EnviroInfo & ICT4S*, Copenhagen, Denmark (2015) 207-208. [[LINK]](https://dblp.org/rec/conf/enviroinfo/HuangC15.html) [[PDF]](pubs\EnviroInfo-2015.pdf)
+
+1. Y. C. Chu, "A Multi-layered System Architecture for Environmental Monitoring Data Management – Taiwan’s Experience," Submitted to 21st International Conference of Informatics for Environmental Protection, Warsaw, Poland (2007).
+
+2.  Y. C. Chu, S. M. Huang, C. C. Lien, C. C. Yung, "An Ontology-Driven Approach for Harmonizing and Integrating Environmental Information," Submitted to 21st International Conference of Informatics for Environmental Protection, Warsaw, Poland (2007).
+
 ## 學位論文
 
 1.  博士論文：Intregrating Heterogeneous Information Sources through Ontology-Driven Model and Data Quality Analysis, 國立臺灣科技大學 電子工程研究所 計算機組 （2001）
 
 2.  碩士論文：一個軟體系統時間限制的驗證方法, 國立臺灣工業技術學院 工程技術研究所（1993）
-
-## 期刊論文
-
-1.  Neng-Huei Lin et al. "An overview of regional experiments on biomass burning aerosols and related pollutants in Southeast Asia: From BASE-ASIA and the Dongsha Experiment to 7-SEAS," Atmospheric Environment, Volume 78, (2013) 1-19.
-
-## 會議論文
-
-1.  Y. C. Chu, "A Multi-layered System Architecture for Environmental Monitoring Data Management – Taiwan’s Experience," Submitted to 21st International Conference of Informatics for Environmental Protection, Warsaw, Poland (2007).
-
-2.  Y. C. Chu, S. M. Huang, C. C. Lien, C. C. Yung, "An Ontology-Driven Approach for Harmonizing and Integrating Environmental Information," Submitted to 21st International Conference of Informatics for Environmental Protection, Warsaw, Poland (2007).
