@@ -1,11 +1,8 @@
---- 
-title: "Yuchi-05" 
+---
+title: "Yuchi Chu" 
 about: 
   template: trestles 
   image: images/yu-4.png 
 ---
 
-施工中……<br>
-Under Construction.
-
-
+施工中……<br> Under Construction.
