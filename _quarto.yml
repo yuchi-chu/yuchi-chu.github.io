@@ -3,11 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "Yuchi Chu"
+  title: "Yuchi's Notes"
   favicon: /images/favicon.ico
   navbar:
     left:
-      - index.qmd
       - posts.qmd
       - pubs.qmd
 

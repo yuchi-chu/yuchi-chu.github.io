@@ -1,8 +1,10 @@
 ---
-title: "Yuchi Chu" 
+title: "Yuchi's Notes" 
 about: 
   template: trestles 
-  image: images/yu-4.png 
+  image: images/snow-leopard-1.png 
 ---
 
-# [ **施工中……**<br> Under Construction. ]{style="color:red"}
+你不要那樣看著我的眼睛
+
+我就怕你會看穿我的心……
