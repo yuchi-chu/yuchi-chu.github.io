@@ -1,5 +1,5 @@
 ---
-title: "Yuchi's Notes" 
+title: "想東想西，想東西<br>Yuchi's Notes" 
 about: 
   template: trestles 
   image: images/snow-leopard-1.png 

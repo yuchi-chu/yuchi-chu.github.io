@@ -2,10 +2,12 @@
 title: "Posts"
 listing:
   contents: posts
-  sort: "date desc"
+  sort: 
+    - "date"
+    - "title desc"
   type: default
   image-align: right
-  max-description-length: 175
+  max-description-length: 120
   date-format: medium
   categories: true
   sort-ui: false
