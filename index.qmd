@@ -1,10 +1,9 @@
 ---
-title: "想東想西，想東西<br>Yuchi's Notes" 
+title: "想東想西，想東西<br><br>Yuchi's Notes" 
 about: 
   template: trestles 
   image: images/snow-leopard-1.png 
 ---
 
-你不要那樣看著我的眼睛
-
+你不要那樣看著我的眼睛<br>
 我就怕你會看穿我的心……
