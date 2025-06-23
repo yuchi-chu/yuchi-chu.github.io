@@ -22,6 +22,6 @@ categories:
 
 [^2]: Frederick Brooks and John Fuller, Design of Design, The Essays from a Computer Scientist. 1st edition. Upper Saddle River, N.J: Addison-Wesley Professional (2010) pp. 23-24.
 
-絕大部分從事**客製型軟體系統**（taylor-made software system）或軟體專案開發的人員都有類似上述的經驗，很遺憾，50多年過去了，這種情況並沒有太大改變，也沒有完善的解決方案。或許正如布魯克斯所說的，在軟體工程領域，沒有銀彈（No Silver Bullet—Essence and Accidents of Software Engineering）。[^3]
+絕大部分從事**客製型軟體系統**（taylor-made software system）或軟體專案開發的人員都有類似上述的經驗，很遺憾，50多年過去了，這種情況並沒有太大改變，也沒有完善的解決方案。或許正如布魯克斯所說的，在軟體工程領域，不存在銀色的子彈（No Silver Bullet—Essence and Accidents of Software Engineering）。[^3]
 
 [^3]: Frederick Brooks,"No silver bullet—essence and accidents of software engineering," in Information Processing 86, H. J. Kugler, ed. Amsterdam: Elsevier Science (North Holland), (1986) pp. 1069-1076.
