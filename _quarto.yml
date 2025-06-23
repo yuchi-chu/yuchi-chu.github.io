@@ -17,6 +17,9 @@ format:
     fontsize: "21px"
     linestretch: 1.4
     toc: true
+    language:
+      section-title-footnotes: 註腳
+    
 
 editor: visual
 

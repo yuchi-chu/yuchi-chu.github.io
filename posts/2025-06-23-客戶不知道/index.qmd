@@ -1,0 +1,27 @@
+---
+title: "客戶其實並不清楚自己想要的是什麼"
+#author: "Yuchi Chu"
+date: '2025-06-23'
+format: 
+  html:
+    code-fold: true
+featured: no
+categories:
+  - 軟體工程
+---
+
+這是真的。
+
+佛瑞德．布魯克斯（Frederick Brooks, Jr. 1931-2022）[^1]在學生時期曾在一家軍火商打工，他被要求設計一個小型資料庫，用來追蹤某個雷達子系統上萬張圖說及其更新狀態。幾星期後，他很自豪地向客戶展示系統輸出的報表，但是他的客戶卻希望他「把這裡改一下…」。隔天他依客戶的意見改了，客戶又說「把那裡改一下…」；在接下來的幾個星期，每天不斷重複這種過程，他的客戶會彬彬有禮的根據前一天的修改結果，提出另一個修改的「需求」。
+
+[^1]: 佛瑞德．布魯克斯（Frederick Brooks, Jr. 1931-2022）美國電腦科學家，1999年圖靈獎得主，1993年IEEE馮紐曼獎章得主；曾在IBM公司主持開發OS/360等大型電腦作業系統，著有《人月神話》（The Mythical Man-Month: Essays on Software Engineering）。
+
+系統本身其實很簡單（但當時程式是要打在卡片上的），而每次的修改的項目也很「平淡」，像是調整排序條件、排列方式（縮格）、或是替某些值得注意的項目標上星號等。當時布魯克斯很氣憤：「為什麼客戶不能把想要的東西一次說清楚，而是每天擠一點呢？」
+
+後來他意識到，他為客戶所提供的服務，是在幫助客戶「決定什麼是他想要的」；換句話說，**客戶其實並不清楚自己想要的是什麼**！所以，布魯克斯認為：軟體系統想要在開發初期就能瞭解「整個產品需求」，並不太可能。而設計師的主要任務則是「幫助客戶發現他們想要的設計」（A chief service of a designer is helping clients discover what they want designed.）[^2]
+
+[^2]: Frederick Brooks and John Fuller, Design of Design, The Essays from a Computer Scientist. 1st edition. Upper Saddle River, N.J: Addison-Wesley Professional (2010) pp. 23-24.
+
+絕大部分從事**客製型軟體系統**（taylor-made software system）或軟體專案開發的人員都有類似上述的經驗，很遺憾，50多年過去了，這種情況並沒有太大改變，也沒有完善的解決方案。或許正如布魯克斯所說的，在軟體工程領域，沒有銀彈（No Silver Bullet—Essence and Accidents of Software Engineering）。[^3]
+
+[^3]: Frederick Brooks,"No silver bullet—essence and accidents of software engineering," in Information Processing 86, H. J. Kugler, ed. Amsterdam: Elsevier Science (North Holland), (1986) pp. 1069-1076.
