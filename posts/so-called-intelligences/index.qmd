@@ -2,6 +2,8 @@
 title: "所謂「情資」？"
 #author: "Yuchi Chu"
 date: '2025-04-30'
+image: 91921.jpg
+image-height: 200px
 format: 
   html:
     code-fold: true

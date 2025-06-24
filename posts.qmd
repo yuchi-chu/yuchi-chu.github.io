@@ -7,7 +7,7 @@ listing:
     - "title desc"
   type: default
   image-align: right
-  image-height: "0"
+  #image-height: "0"
   max-description-length: 120
   date-format: medium
   categories: true

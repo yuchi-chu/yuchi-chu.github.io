@@ -2,6 +2,7 @@
 title: "IT 單位最「顧人怨」的事!？"
 #author: "Yuchi Chu"
 date: '2025-05-20'
+image: 085438.jpg
 format: 
   html:
     code-fold: true
