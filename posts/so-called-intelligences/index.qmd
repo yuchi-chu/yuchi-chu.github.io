@@ -1,7 +1,7 @@
 ---
 title: "所謂「情資」？"
 #author: "Yuchi Chu"
-#date: '2022-04-11'
+date: '2025-04-30'
 format: 
   html:
     code-fold: true
