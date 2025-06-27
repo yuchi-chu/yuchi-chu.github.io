@@ -1,5 +1,54 @@
 /*-- scss:defaults --*/
 
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Ottoman+Siyaq&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap');
+
+
 $oxford-blue: #002147;
+$oxford-yellow: #F7EF66;
 $orange: #ad7237;
+
+
 $navbar-bg: $oxford-blue;
+
+$font-family-sans-serif: "Noto Serif Ottoman Siyaq", "Noto Serif TC", sans-serif;
+
+/* Change the color of the website title in the navbar */
+.navbar-brand {
+  color: #f0f0f0;
+  font-size: 30px;
+  font-family: "Arial", sans-serif;
+}
+
+/* Example: Change the background color of the navbar */
+.navbar {
+  background-color: #f0f0f0;
+}
+
+/* Example: Change the text color of navbar links */
+.navbar-nav .nav-link {
+  color: #f0f0f0;
+}
+
+/* Example: Change the font size of the navbar */
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+}
+
+/* Example: Change the font family of the navbar */
+.navbar-nav .nav-link {
+  font-family: "Arial", sans-serif;
+}
+
+// resize logo (top left corner) see https://github.com/robertmitchellv/robertmitchellv.github.io/blob/main/custom-dark.scss
+.navbar-brand img { 
+  max-height: 90px;
+  width: auto;
+}
+
+.blockquote {
+    border-left: 5px solid #33ccff; /* Example: Blue line */
+    background-color: #dcf5ff;
+  }

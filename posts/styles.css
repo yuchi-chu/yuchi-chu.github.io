@@ -1,3 +1,5 @@
+
+
 div.quarto-about-trestles .about-entity .about-links {
   flex-direction: row;
   column-gap: 1em !important;
@@ -6,3 +8,9 @@ div.quarto-about-trestles .about-entity .about-links {
   background-color: #00a97d !important;
   color: #FFFFFF;
 }
+
+.blockquote {
+    border-left: 5px solid #33ccff; /* Example: Blue line */
+    background-color: #dcf5ff;
+  }
+

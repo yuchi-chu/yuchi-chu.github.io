@@ -6,10 +6,15 @@ website:
   title: "想東想西"
   favicon: /images/favicon.ico
   navbar:
+    title: false
+    logo: /images/logo.png
+    logo-alt: ""
     left:
       - posts.qmd
       - pubs.qmd
-
+  page-footer: 
+    center: Copyright © 2025 Yuchi Chu
+   
 format:
   html:
     theme:
@@ -18,8 +23,10 @@ format:
     linestretch: 1.4
     toc: true
     language:
-      section-title-footnotes: 註腳
+      section-title-footnotes: 注腳
     
 
 editor: visual
+
+
 

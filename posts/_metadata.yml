@@ -1,0 +1,11 @@
+freeze: auto
+
+bibliography: ref.bib
+  
+
+csl: ieee.csl
+  
+format: 
+  html:
+    code-fold: true
+    

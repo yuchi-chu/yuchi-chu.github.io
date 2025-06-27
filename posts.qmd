@@ -1,5 +1,6 @@
 ---
-title: "Posts"
+title: "異想集"
+
 listing:
   contents: posts
   sort: 
