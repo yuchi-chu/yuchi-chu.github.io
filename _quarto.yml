@@ -19,11 +19,16 @@ format:
   html:
     theme:
       light: [flatly, styles.scss] 
-    fontsize: "21px"
+    fontsize: 18pt
     linestretch: 1.4
+    grid:
+      sidebar-width: 350px
+      body-width: 900px
+      margin-width: 200px
+      gutter-width: 1.5em
     toc: true
     language:
-      section-title-footnotes: 注腳
+      section-title-footnotes: 參考資料
     
 
 editor: visual
