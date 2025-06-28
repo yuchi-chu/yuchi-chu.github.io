@@ -1,6 +1,7 @@
 
 
+/* 以下設定只針對 posts folder 中文章的行高起作用 */
 .content {
-  line-height: 1.6; /* 行高為字體大小的 120% */
+  line-height: 1.6; /* 行高為字體大小的1.6倍 */
 }
 

@@ -1,10 +1,12 @@
 freeze: auto
 
-bibliography: ref.bib
-csl: ieee.csl
-  
+
+# 參考文獻來源檔及格式檔，notify the consistency of ref.bib 
+bibliography: ../ref.bib
+csl: ../ieee.csl
+
 format: 
   html:
     code-fold: true
-    css: styles.css
+    css: styles.css #僅作用於此 folder
     

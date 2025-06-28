@@ -19,9 +19,9 @@ format:
   html:
     theme:
       light: [flatly, styles.scss] 
-    fontsize: 18pt
-    linestretch: 1.4
-    grid:
+    fontsize: 18pt #equal to font-size in CSS
+    linestretch: 1.4 #equal to line-hieght
+    grid: #for landing page only
       sidebar-width: 350px
       body-width: 900px
       margin-width: 200px
