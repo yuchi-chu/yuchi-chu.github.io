@@ -10,7 +10,7 @@ format:
 featured: no
 theme: 
   dark: darkly
-#css: styles.css
+#css: styles.csstemp/
 ---
 
 > 你會相信某件事，是因為你需要相信；至於你相信或不信什麼，這本身並沒有價值，沒有功用。<br> 勒卡雷 《冷戰碟魂》
