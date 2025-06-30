@@ -2,7 +2,7 @@
 title: "客戶其實並不清楚自己想要的是什麼"
 #author: "Yuchi Chu"
 date: '2025-06-23'
-image: 100701.jpg
+image: 100213.jpg
 format: 
   html:
     code-fold: true

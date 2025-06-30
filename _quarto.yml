@@ -9,12 +9,16 @@ website:
     title: false
     logo: /images/logo.png
     logo-alt: ""
-    left:
+    right:
       - posts.qmd
       - pubs.qmd
   page-footer: 
     center: Copyright © 2025 Yuchi Chu
    
+reference-section-title: 参考文獻
+bibliography: ref.bib
+csl: ieee.csl
+
 format:
   html:
     theme:
@@ -29,6 +33,7 @@ format:
     toc: true
     language:
       section-title-footnotes: 參考資料
+      title-block-published: 發布于
     
 
 editor: visual

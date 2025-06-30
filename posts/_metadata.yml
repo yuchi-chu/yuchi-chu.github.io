@@ -1,5 +1,8 @@
 freeze: auto
 
+# Enable banner style title blocks
+#title-block-banner: true
+
 
 # 參考文獻來源檔及格式檔，notify the consistency of ref.bib 
 bibliography: ../ref.bib

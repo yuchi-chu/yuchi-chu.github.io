@@ -6,15 +6,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap');
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
-
-
-
 $oxford-blue: #002147;
 $oxford-yellow: #F7EF66;
 $orange: #ad7237;
@@ -22,8 +13,7 @@ $orange: #ad7237;
 
 $navbar-bg: $oxford-blue;
 
-/* 英文字體、中文字體-- 注意與 mainfont 是否衝突，mainfont 優先 */
-$font-family-sans-serif: "Roboto Flex", "Noto Sans TC", sans-serif;
+$font-family-sans-serif: "Noto Serif Ottoman Siyaq", "Noto Serif TC", sans-serif;
 
 
 

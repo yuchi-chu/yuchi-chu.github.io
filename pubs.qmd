@@ -1,6 +1,6 @@
 ---
 title: "論文著作"
-description: Publications
+subtitle: some academic works and others
 
 #title-block-banner: true
 #title-block-banner: "#343a40" #bs-gray-800
