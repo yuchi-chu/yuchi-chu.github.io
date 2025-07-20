@@ -1,6 +1,6 @@
 ---
 title: "想了一想"
-subtitle: "過往工作上的經驗和觀察…"
+subtitle: "過往工作現場的經驗和觀察…"
 
 
 listing:
@@ -9,8 +9,10 @@ listing:
     - "date desc"
     - "title desc"
   type: default
-  image-align: right
+  #image-align: right
   #image-height: "0"
+  fields: [date, title, description, categories]
+  #exclude: [image]  # 完全排除圖片欄位
   max-description-length: 70 #
   date-format: medium
   categories: true

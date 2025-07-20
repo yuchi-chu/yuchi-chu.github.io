@@ -32,8 +32,8 @@ format:
       gutter-width: 1.5em
     toc: true
     language:
-      section-title-footnotes: 參考資料
-      title-block-published: 發布于
+      section-title-footnotes: 注釋及參考資料
+      title-block-published: 發布于（初稿）
     
 
 editor: visual
