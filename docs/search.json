@@ -49,20 +49,6 @@
     "text": "注釋及參考資料\n\n\n立法院第10屆第4會期內政委員會第14次全體委員會議紀錄，中華民國110年11月10日↩︎\n行政院國家資通安全會報技術服中心，110年資通安全技術年報，中華民國111年7月，p.19↩︎\nhttps://www.youtube.com/watch?v=qMHsJGn5tc8 Accessed:2024.07.18↩︎\nhttps://pansci.asia/archives/331019 這篇報導係轉載科技大觀園網站：曾繁安，物聯網的資安攻防大戰！臺灣該如何見招拆招？Accessed:2024.07.18；原文並未提及「每分鐘15次駭客攻擊」。↩︎\n自由時報 2022/11/07, https://ec.ltn.com.tw/article/breakingnews/4115381 Accessed:2024.07.18↩︎\nSpafford, E., L. Metcalf, J. Dykstra, Cybersecurity Myths and Misconceptions ( Chapter 14: Lies, Damn Lies, and Statistics), Addison-Wesley, 2023.↩︎\n丹‧賈德納（Dan Gardner）, 李靜怡、黃慧慧譯，販賣恐懼-脫軌的風險判斷，博雅書屋，p.173, 台北，2009.↩︎\n中央社 2025/01/05, 國安局：2024年每日遭中共網攻240萬次 比前1年翻倍， https://www.cna.com.tw/news/aipl/202501050041.aspx Accessed:2025.02.18↩︎"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "想東想西，想東西Yuchi’s Notes",
-    "section": "",
-    "text": "你不要那樣看著我的眼睛 我就怕你會看穿我的心……\n\n但何必就這個主題不斷推理，糾纏於人呢？直說吧！你既然看過鯨魚噴水，那就說說這噴水是什麼；你難道分不清水和空氣嗎？可敬的先生啊，這世上有些東西看似平凡無奇，但想釐清卻不容易。許多看似簡單的事情，往往最為複雜。就拿這鯨魚的噴水來說吧，就算你站在裡面，卻仍然難以確定它究竟是什麼。 – 梅爾維爾《白鯨記》第85章"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "posts/clients-dont-know-what-they-need/index.html",
     "href": "posts/clients-dont-know-what-they-need/index.html",
     "title": "客戶其實並不清楚自己想要的是什麼",
@@ -75,6 +61,34 @@
     "title": "客戶其實並不清楚自己想要的是什麼",
     "section": "注釋及參考資料",
     "text": "注釋及參考資料\n\n\n佛瑞德．布魯克斯（Frederick Brooks, Jr. 1931-2022）美國電腦科學家，1999年圖靈獎得主，1993年IEEE馮紐曼獎章得主；曾在IBM公司主持開發OS/360等大型電腦作業系統，著有《人月神話》（The Mythical Man-Month: Essays on Software Engineering）。↩︎\nFrederick Brooks and John Fuller, Design of Design, The Essays from a Computer Scientist. 1st edition. Upper Saddle River, N.J: Addison-Wesley Professional (2010) pp. 23-24.↩︎\nFrederick Brooks,“No silver bullet—essence and accidents of software engineering,” in Information Processing 86, H. J. Kugler, ed. Amsterdam: Elsevier Science (North Holland), (1986) pp. 1069-1076.↩︎"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "想東想西，想東西Yuchi’s Notes",
+    "section": "",
+    "text": "你不要那樣看著我的眼睛 我就怕你會看穿我的心……\n\n但何必就這個主題不斷推理，糾纏於人呢？直說吧！你既然看過鯨魚噴水，那就說說這噴水是什麼；你難道分不清水和空氣嗎？可敬的先生啊，這世上有些東西看似平凡無奇，但想釐清卻不容易。許多看似簡單的事情，往往最為複雜。就拿這鯨魚的噴水來說吧，就算你站在裡面，卻仍然難以確定它究竟是什麼。 – 梅爾維爾《白鯨記》第85章"
+  },
+  {
+    "objectID": "posts/event-incident/index.html",
+    "href": "posts/event-incident/index.html",
+    "title": "事件 vs. 事故",
+    "section": "",
+    "text": "您若是實際從事系統及網路的操作管理、 IT 維運，或所謂的資安工作（強調「實際從事」，而非資安稽核或是資安顧問），可能經常困惑於事件（event）或是事故（incident）這二個名詞。在不同機構或文件，對這二個名詞的認知、解讀甚至是譯法，都不儘相同。最特別是， 資通安全管理法（下稱資安法）中所用的詞是「資通安全事件」，而在其英譯法規中則是譯作 cyber security incident（應為「事故」，法規中英文相互矛盾）, 而中華民國國家標準（CNS）則用「資訊安全事件（information security event）」及「資訊安全事故（information security incident）」1。「事件」究竟指的是 event 或是 incident? 資安法的條文中英文不僅分歧，同時也與國家標準，甚至國際標準相互矛盾。 這不僅凸顯了現行資安專業術語的紊亂，更 顯露了臺灣資安治理長期被忽略的 「定義模糊性(ambiguity)」問題。"
+  },
+  {
+    "objectID": "posts/event-incident/index.html#footnotes",
+    "href": "posts/event-incident/index.html#footnotes",
+    "title": "事件 vs. 事故",
+    "section": "注釋及參考資料",
+    "text": "注釋及參考資料\n\n\n經濟部標準檢驗局，中華民國國家標準 CNS 27000:2016 X6101（其內容大抵迻譯ISO27000文件）↩︎\n同注釋[1]↩︎\nNIST SP 800-61r3, “Incident Response Recommendations and Considerations for Cybersecurity Risk Management,” April, 2025.↩︎\n(1)利用殭屍網路（botnet）發送大量連線請求，致其無法提供正常服務。 (2)取得軟體即服務（SaaS）供應商的管理權限，致使用該服務之客戶敏感資料面臨風險。 (3)入侵企業營運網路竊取憑證，並藉以操控工業控制系統，關閉或破壞實體組件，造成重大服務中斷 (4)部署勒索軟體癱瘓電腦系統運作，引發資料外洩事件。 (5)透過釣魚郵件入侵使用者帳號，再利用該帳號進行詐騙。 (6)發現網路管理設備的新漏洞，並利用此漏洞存取網路通訊內容。 (7)入侵供應商軟體，篡改版本後分派至客戶端。↩︎\nDaniel Miessler, The Difference Between Events, Alerts, and Incidents, https://danielmiessler.com/blog/event-alert-incident Accessed: 2025.07.10↩︎\n自由時報,「糗了！台灣資安主管聯盟成立大會視訊斷線，唐鳳笑回這也算資安」\nhttps://ec.ltn.com.tw/article/breakingnews/3908781 Accessed:2025.07.10↩︎"
   },
   {
     "objectID": "posts/most-complained-IT-works/index.html",
@@ -109,6 +123,6 @@
     "href": "posts.html",
     "title": "想了一想",
     "section": "",
-    "text": "資安？還是人安？\n\n\n\n\n\n\n資安\n\n\nIT 維運\n\n\n\n\n\n\n\n\n\nJun 30, 2025\n\n\n\n\n\n\n\n客戶其實並不清楚自己想要的是什麼\n\n\n\n\n\n\n軟體工程\n\n\n\n\n\n\n\n\n\nJun 23, 2025\n\n\n\n\n\n\n\n錢塘江水工症候群\n\n\n\n\n\n\n軟體工程\n\n\n\n\n\n\n\n\n\nJun 11, 2025\n\n\n\n\n\n\n\nIT 單位最「顧人怨」的事!？\n\n\n\n\n\n\nIT 維運\n\n\n\n\n\n\n\n\n\nMay 20, 2025\n\n\n\n\n\n\n\n所謂「情資」？\n\n\n\n\n\n\n資安\n\n\n\n\n\n\n\n\n\nApr 30, 2025\n\n\n\n\n\n\n\n臺灣遭受網路攻擊的次數？\n\n\n\n\n\n\n資安\n\n\n\n\n\n\n\n\n\nMar 11, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "事件 vs. 事故\n\n\n\n\n\n\n資安\n\n\nIT 維運\n\n\n\n\n\n\n\n\n\nJul 20, 2025\n\n\n\n\n\n\n\n資安？還是人安？\n\n\n\n\n\n\n資安\n\n\nIT 維運\n\n\n\n\n\n\n\n\n\nJun 30, 2025\n\n\n\n\n\n\n\n客戶其實並不清楚自己想要的是什麼\n\n\n\n\n\n\n軟體工程\n\n\n\n\n\n\n\n\n\nJun 23, 2025\n\n\n\n\n\n\n\n錢塘江水工症候群\n\n\n\n\n\n\n軟體工程\n\n\n\n\n\n\n\n\n\nJun 11, 2025\n\n\n\n\n\n\n\nIT 單位最「顧人怨」的事!？\n\n\n\n\n\n\nIT 維運\n\n\n\n\n\n\n\n\n\nMay 20, 2025\n\n\n\n\n\n\n\n所謂「情資」？\n\n\n\n\n\n\n資安\n\n\n\n\n\n\n\n\n\nApr 30, 2025\n\n\n\n\n\n\n\n臺灣遭受網路攻擊的次數？\n\n\n\n\n\n\n資安\n\n\n\n\n\n\n\n\n\nMar 11, 2025\n\n\n\n\n\n\nNo matching items"
   }
 ]
