@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-05-20">
+<meta name="dcterms.date" content="2025-07-30">
 
-<title>IT 單位最「顧人怨」的事!？ – 想東想西</title>
+<title>關於密碼(1) - 為什麼每90天要改密碼？ – 想東想西</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -114,13 +114,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#密碼" id="toc-密碼" class="nav-link active" data-scroll-target="#密碼">密碼</a></li>
-  <li><a href="#報修單" id="toc-報修單" class="nav-link" data-scroll-target="#報修單">報修單</a></li>
-  <li><a href="#視訊會議" id="toc-視訊會議" class="nav-link" data-scroll-target="#視訊會議">視訊會議</a></li>
-  <li><a href="#網路速度太慢" id="toc-網路速度太慢" class="nav-link" data-scroll-target="#網路速度太慢">網路速度太慢</a></li>
-  <li><a href="#網站被阻擋" id="toc-網站被阻擋" class="nav-link" data-scroll-target="#網站被阻擋">網站被阻擋</a></li>
-  <li><a href="#印表機" id="toc-印表機" class="nav-link" data-scroll-target="#印表機">印表機</a></li>
-  <li><a href="#員工通訊錄列表的正確性" id="toc-員工通訊錄列表的正確性" class="nav-link" data-scroll-target="#員工通訊錄列表的正確性">員工通訊錄（列表）的正確性</a></li>
+  <li><a href="#荒謬的起源及反效果" id="toc-荒謬的起源及反效果" class="nav-link active" data-scroll-target="#荒謬的起源及反效果">荒謬的起源及反效果</a></li>
+  <li><a href="#it部門增加的作負荷" id="toc-it部門增加的作負荷" class="nav-link" data-scroll-target="#it部門增加的作負荷">IT部門增加的作負荷</a></li>
   </ul>
 </nav>
     </div>
@@ -129,8 +124,9 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">IT 單位最「顧人怨」的事!？</h1>
+<h1 class="title">關於密碼(1) - 為什麼每90天要改密碼？</h1>
   <div class="quarto-categories">
+    <div class="quarto-category">資安</div>
     <div class="quarto-category">IT 維運</div>
   </div>
   </div>
@@ -143,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">發布于（初稿）</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 20, 2025</p>
+      <p class="date">July 30, 2025</p>
     </div>
   </div>
   
@@ -155,36 +151,21 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>企業中IT部門的「名聲」，隨時都遭遇各種挑戰。例如公司的網路設備故障，致使網路速度變慢甚或不通；賣場的POS裝置當機，造成顧客大排長龍；公務機關在下班前要發一份緊急公文，但電子公文交換系統卻無法運作。林林總總的突發情況，都讓人印象深刻，甚至對IT的管理和技術專長產生懷疑。此外，某些隱蔽的地方，通常是員工使用IT資源時遇到的「麻煩事」，這些日常的小事也可能讓員工抓狂，進而埋下顧人怨的種子，對IT部門的名聲同樣很傷。</p>
-<p>Mark Settle<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> 列舉了7項員工對IT部門最為不滿的事。當然，每個企的運營型態和組織文化不同，不能一概而論。以下是整理自該書的七種根源，再結合個人實務工作上的經驗和觀察，提出一些看法，供作參考。</p>
-<section id="密碼" class="level3">
-<h3 class="anchored" data-anchor-id="密碼">密碼</h3>
-<p>對多數員工而言，密碼是件麻煩事，甚至演變成噩夢。例如 ，放個長假回來帳號突然被鎖住，因為超過更改期限；久久用一次的系統，忘記先前設的密碼，打錯三次，帳號又被鎖住。其他像是密碼要求一定長度、規定要各種組合，三不五時就得改密碼等等這類瑣事，經常讓員工抓狂。但IT部門會認為密碼是一件嚴肅的事，特別是在「資安就是國安」這種口號下，這似乎是「必要的無奈」。至於密碼的複雜度、定期更改密碼這些措施對資安防護究竟有多少助益，倒是沒人探究。</p>
+<p>星期天上午，小明接到主管的電話，說他寄了一封重要的email給小明。小明趕忙開手機收信，哇！？收信APP出現訊息，說他的密碼已到期，要先更新密碼才能登入。但是用手機要如何更改公司帳號的密碼呢？平常密碼到期，他都是以公司的桌機處理。當初以手機收發公司email的設定，都是IT部門幫忙處理，現在只好再打電話給IT部門的人了。</p>
+<p>如果你在IT部門工作，你或許在假日接過這樣的電話。定期更新密碼已成為資訊安全的基本措施，但你是否想過，為什麼是每90天要更新密碼呢？</p>
+<section id="荒謬的起源及反效果" class="level3">
+<h3 class="anchored" data-anchor-id="荒謬的起源及反效果">荒謬的起源及反效果</h3>
+<p>2003年美國國家標準技術研究院（NIST）在《SP 800-63》中首次建議「90天更換密碼」，但其作者 Bill Burr 後來在2017年《Wall Street Journal》訪談時，公開承認這項建議是錯誤的：「<strong>當時我們只是憑直覺寫了這些規則，並沒有實際數據支持</strong>」； 他甚至道歉：「這些規則反而讓人們用更簡單的規律改密碼（如Password1→Password2）。<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>針對定期更新密碼的有效與否及其效益，已有相當的學理和實證研究否定這項措施。 卡爾頓大學 (Carleton University) 的研究指出，定期更新密碼並沒有明顯的防護效果，若與其相關成本及潛在負面作用相比，更是不值一提； 研究並發現，定期更換的密碼中，41%可透過簡單演算法從舊密碼推測出來（如Password1→Password2）。<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> 美國聯邦貿易委員會（FTC）的技術長 Lorrie Cranor 在2016年也指出：強制定期更新密碼會導致人們重複使用密碼或將密碼寫在便利貼，反而增加風險；而定期更新密碼對阻礙攻擊者的作用極其有限，不足以抵消給使用者帶來的不便。<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<p>NIST 後來在2017年發布的《數位身分認證指南（Digital Identity Guidelines, NIST SP 800-63B）》中，明確建議取消強制定期更換密碼的要求， 並明確指出：「除非發現密碼外洩，否則不應強制定期更換」。<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<p>很遺憾，臺灣的資安法還是將定期更新密碼列作「應辦事項」，主管機關並要求各公務機關應在「政府組態基準（Government Configuration Baseline, GCB）設定並強制套用，令人費解。</p>
 </section>
-<section id="報修單" class="level3">
-<h3 class="anchored" data-anchor-id="報修單">報修單</h3>
-<p>員工向IT部門報修設備故障，倘若修復的時效不如預期，就會引發不滿。最常發生的抱怨是「已經報修好幾天了，都沒人處理」，可是有些「報修」並不見得都是IT設備的問題，有的員工連座位搬動，找條延長線都要報修（這類工作在新冠肺炎疫情期間尤為顯著），這些是IT部門的工作嗎？</p>
-</section>
-<section id="視訊會議" class="level3">
-<h3 class="anchored" data-anchor-id="視訊會議">視訊會議</h3>
-<p>每開一次視訊會議，就是一場大考驗。網路不通？畫面為什麼會有lag? 可不可以鏡頭自動對到現在發言者？主席講話時不能自動 loom in嗎？員工習慣將視訊會議當作「實體會議」看待，或是需要現場要有「導播」。是的，賣視訊設備的廠商會說這些都不是問題，當實際操作時，這些統統都是問題。</p>
-</section>
-<section id="網路速度太慢" class="level3">
-<h3 class="anchored" data-anchor-id="網路速度太慢">網路速度太慢</h3>
-<p>公司對外連網的速度比員工在家裡或是用手機4G連網的速度還慢；員工在家辦公連到公司後台系統的速度超慢；新聞公關部門要對外直播，網路頻寬不夠，畫面與聲音沒法同步；這些都是常見的反應。但網路速度究竟要多快才算快？直播如果用專線，由哪個部門買單？</p>
-</section>
-<section id="網站被阻擋" class="level3">
-<h3 class="anchored" data-anchor-id="網站被阻擋">網站被阻擋</h3>
-<p>員工在外部環境習慣了自由自在的網路「衝浪」，他們認為在工作環境也應該提供相同的服務和自由。哪些網站能造訪，哪些不能造訪，每個人看法不儘相同（為什麼不能連結購物網站？為什麼不能看抖音？）這種期待與現實的落差，間接造成對IT部門的不滿。</p>
-</section>
-<section id="印表機" class="level3">
-<h3 class="anchored" data-anchor-id="印表機">印表機</h3>
-<p>又卡紙了、又沒墨水了，馬上要開會了，資料還是印不出來；為什麼沒有彩色印表機？為什麼不能列印A3的報表？這類問題也多由IT部門承擔。由於愈來愈多的工作場所推行「無紙化」或所謂「電子會議」，對印表機的挫折感正逐漸減少，但要完全解決印表機問題，只怕得再等一段時日。</p>
-</section>
-<section id="員工通訊錄列表的正確性" class="level3">
-<h3 class="anchored" data-anchor-id="員工通訊錄列表的正確性">員工通訊錄（列表）的正確性</h3>
-<p>公司內通常會維護所有員工的通訊資料，例如，職稱、電話分機等，這些資料如果發生錯誤或未能及時更新，通常也會怪到IT部門頭上。此外，公司客戶的連絡資料，或是公務機關電子公文交換的「地址簿」，這類資料的維護究竟應該如何分工？如何課責？如果沒有一套完整的作業流程和核校機制，IT部門就成為是最直接的「砲灰」。</p>
-<p>當然不止以上七件事。如果單就以上七件事來看，有少部分可以藉由引進新技術加以改善（密碼管理或重置），部分問題可能是程序和制度面的問題，需要設計明確的作業流程及課責制度。IT管理工作要想完全免除「顧人怨」，並不容易。</p>
+<section id="it部門增加的作負荷" class="level3">
+<h3 class="anchored" data-anchor-id="it部門增加的作負荷">IT部門增加的作負荷</h3>
+<p>一般來說，公司員工會在週一至週五的工作日設定密碼，如果不考慮節慶假日的話，週一或週二設定密碼者，90天之後的密碼到期日會落在週六或週日。假設公司員工有1000人，則估計平均會有10-20人的密碼到期日會落在週六或週日。這些員工就可能在假日打電話給IT部門，或者是待週一上班日再處理。根據過往經驗，IT部門在週一會接到大量密碼更新或是密碼遭到鎖定的處置需求，形成IT服務的「尖峰時刻」。</p>
+<p>既然是主管機關規定的應辦事項，可能會有「當責」的問題，但是又增加工作負荷（虛功？），還可能有反效果，那怎麼辦？</p>
+<p><strong>權宜之計</strong>: 如果將密碼到期天數設為7的倍數，比方說91天或84天，在不考慮節慶假日情況下，密碼到期日會落在週一到週五的工作日，如此就可以減少週一尖峰時刻的現象。這種改變不僅減輕IT部門的工作負荷，避免使用者的困擾，而且不致影響定期更換密碼的作用。根據我們實際的經驗，將密碼效期從90天改為98天後，每週一IT服務人員的工作量約減量20%。</p>
+<p>密碼效期設為90天的作法，突顯了現行諸多資安防護措施只是基於「慣性盲從」，缺乏以現場實作經驗為基礎的IT維運思考。我們認為，任何以資安防護為訴求的措施，在設計及落實到現場之前，應該充分考量使用者的操作習性、可能的副作用，及IT部門的維運負荷等因素。當然，更重要的是要能務實地評估這類措施的實際效益，而非囫圇吞棗，不加思索。即便是法規要求事項，也應該充分理解辨識其正反效應，並就組織的特性及需求加以調適後，再予採行。</p>
 
 
 </section>
@@ -193,7 +174,10 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">注釋及參考資料</h2>
 
 <ol>
-<li id="fn1"><p>M. Settle, Truth from the Valley: A Practical Primer on Future IT Management Trends. 2020.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>The Wall Street Journal, “The Man Who Wrote Those Password Rules Has a New Tip: N3v$r M1^d!” <a href="https://www.wsj.com/articles/the-man-who-wrote-those-password-rules-has-a-new-tip-n3v-r-m1-d-1502124118" class="uri">https://www.wsj.com/articles/the-man-who-wrote-those-password-rules-has-a-new-tip-n3v-r-m1-d-1502124118</a> Accessed: 2025.07.20<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Sonia Chiasson and Paul C. van Oorschot, “Quantifying the Security Advantage of Password Expiration Policies” <a href="https://chorus.scs.carleton.ca/wp-content/papercite-data/pdf/chiasson2015desi-expiration.pdf" class="uri">https://chorus.scs.carleton.ca/wp-content/papercite-data/pdf/chiasson2015desi-expiration.pdf</a> Accessed: 2025.07.20<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Federal Trade Commission, “Time to rethink mandatory password changes,” <a href="https://www.ftc.gov/policy/advocacy-research/tech-at-ftc/2016/03/time-rethink-mandatory-password-changes" class="uri">https://www.ftc.gov/policy/advocacy-research/tech-at-ftc/2016/03/time-rethink-mandatory-password-changes</a> Accessed: 2025.07.20<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>NIST Special Publication 800-63B(Digital Identity Guidelines), <a href="https://pages.nist.gov/800-63-4/sp800-63b.html" class="uri">https://pages.nist.gov/800-63-4/sp800-63b.html</a> Accessed: 2025.07.20<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

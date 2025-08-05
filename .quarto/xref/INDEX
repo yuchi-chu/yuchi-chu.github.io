@@ -46,5 +46,11 @@
   },
   "posts/event-incident/index.qmd": {
     "index.html": "43f68e97"
+  },
+  "posts/why-90-days/index.qmd": {
+    "index.html": "824ac4cb"
+  },
+  "posts/pw-complication/index.qmd": {
+    "index.html": "4bb25d96"
   }
 }

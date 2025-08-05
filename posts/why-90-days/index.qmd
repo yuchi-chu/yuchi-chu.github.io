@@ -1,0 +1,46 @@
+---
+title: "關於密碼(1) - 為什麼每90天要改密碼？"
+#author: "Yuchi Chu"
+date: '2025-07-30'
+#image: 100701-1.jpg
+format: 
+  html:
+    code-fold: true
+    
+featured: no
+categories:
+  - 資安
+  - IT 維運
+---
+
+星期天上午，小明接到主管的電話，說他寄了一封重要的email給小明。小明趕忙開手機收信，哇！？收信APP出現訊息，說他的密碼已到期，要先更新密碼才能登入。但是用手機要如何更改公司帳號的密碼呢？平常密碼到期，他都是以公司的桌機處理。當初以手機收發公司email的設定，都是IT部門幫忙處理，現在只好再打電話給IT部門的人了。
+
+如果你在IT部門工作，你或許在假日接過這樣的電話。定期更新密碼已成為資訊安全的基本措施，但你是否想過，為什麼是每90天要更新密碼呢？
+
+### 荒謬的起源及反效果
+
+2003年美國國家標準技術研究院（NIST）在《SP 800-63》中首次建議「90天更換密碼」，但其作者 Bill Burr 後來在2017年《Wall Street Journal》訪談時，公開承認這項建議是錯誤的：「**當時我們只是憑直覺寫了這些規則，並沒有實際數據支持**」； 他甚至道歉：「這些規則反而讓人們用更簡單的規律改密碼（如Password1→Password2）。[^1]
+
+[^1]: The Wall Street Journal, "The Man Who Wrote Those Password Rules Has a New Tip: N3v\$r M1\^d!" <https://www.wsj.com/articles/the-man-who-wrote-those-password-rules-has-a-new-tip-n3v-r-m1-d-1502124118> Accessed: 2025.07.20
+
+針對定期更新密碼的有效與否及其效益，已有相當的學理和實證研究否定這項措施。 卡爾頓大學 (Carleton University) 的研究指出，定期更新密碼並沒有明顯的防護效果，若與其相關成本及潛在負面作用相比，更是不值一提； 研究並發現，定期更換的密碼中，41%可透過簡單演算法從舊密碼推測出來（如Password1→Password2）。[^2] 美國聯邦貿易委員會（FTC）的技術長 Lorrie Cranor 在2016年也指出：強制定期更新密碼會導致人們重複使用密碼或將密碼寫在便利貼，反而增加風險；而定期更新密碼對阻礙攻擊者的作用極其有限，不足以抵消給使用者帶來的不便。[^3]
+
+[^2]: Sonia Chiasson and Paul C. van Oorschot, "Quantifying the Security Advantage of Password Expiration Policies" <https://chorus.scs.carleton.ca/wp-content/papercite-data/pdf/chiasson2015desi-expiration.pdf> Accessed: 2025.07.20
+
+[^3]: Federal Trade Commission, "Time to rethink mandatory password changes," <https://www.ftc.gov/policy/advocacy-research/tech-at-ftc/2016/03/time-rethink-mandatory-password-changes> Accessed: 2025.07.20
+
+NIST 後來在2017年發布的《數位身分認證指南（Digital Identity Guidelines, NIST SP 800-63B）》中，明確建議取消強制定期更換密碼的要求， 並明確指出：「除非發現密碼外洩，否則不應強制定期更換」。[^4]
+
+[^4]: NIST Special Publication 800-63B(Digital Identity Guidelines), <https://pages.nist.gov/800-63-4/sp800-63b.html> Accessed: 2025.07.20
+
+很遺憾，臺灣的資安法還是將定期更新密碼列作「應辦事項」，主管機關並要求各公務機關應在「政府組態基準（Government Configuration Baseline, GCB）設定並強制套用，令人費解。
+
+### IT部門增加的作負荷
+
+一般來說，公司員工會在週一至週五的工作日設定密碼，如果不考慮節慶假日的話，週一或週二設定密碼者，90天之後的密碼到期日會落在週六或週日。假設公司員工有1000人，則估計平均會有10-20人的密碼到期日會落在週六或週日。這些員工就可能在假日打電話給IT部門，或者是待週一上班日再處理。根據過往經驗，IT部門在週一會接到大量密碼更新或是密碼遭到鎖定的處置需求，形成IT服務的「尖峰時刻」。
+
+既然是主管機關規定的應辦事項，可能會有「當責」的問題，但是又增加工作負荷（虛功？），還可能有反效果，那怎麼辦？
+
+**權宜之計**: 如果將密碼到期天數設為7的倍數，比方說91天或84天，在不考慮節慶假日情況下，密碼到期日會落在週一到週五的工作日，如此就可以減少週一尖峰時刻的現象。這種改變不僅減輕IT部門的工作負荷，避免使用者的困擾，而且不致影響定期更換密碼的作用。根據我們實際的經驗，將密碼效期從90天改為98天後，每週一IT服務人員的工作量約減量20%。
+
+密碼效期設為90天的作法，突顯了現行諸多資安防護措施只是基於「慣性盲從」，缺乏以現場實作經驗為基礎的IT維運思考。我們認為，任何以資安防護為訴求的措施，在設計及落實到現場之前，應該充分考量使用者的操作習性、可能的副作用，及IT部門的維運負荷等因素。當然，更重要的是要能務實地評估這類措施的實際效益，而非囫圇吞棗，不加思索。即便是法規要求事項，也應該充分理解辨識其正反效應，並就組織的特性及需求加以調適後，再予採行。
