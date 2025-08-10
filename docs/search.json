@@ -21,88 +21,32 @@
     "text": "注釋及參考資料\n\n\nThe Wall Street Journal, “The Man Who Wrote Those Password Rules Has a New Tip: N3v$r M1^d!” https://www.wsj.com/articles/the-man-who-wrote-those-password-rules-has-a-new-tip-n3v-r-m1-d-1502124118 Accessed: 2025.07.20↩︎\nSonia Chiasson and Paul C. van Oorschot, “Quantifying the Security Advantage of Password Expiration Policies” https://chorus.scs.carleton.ca/wp-content/papercite-data/pdf/chiasson2015desi-expiration.pdf Accessed: 2025.07.20↩︎\nFederal Trade Commission, “Time to rethink mandatory password changes,” https://www.ftc.gov/policy/advocacy-research/tech-at-ftc/2016/03/time-rethink-mandatory-password-changes Accessed: 2025.07.20↩︎\nNIST Special Publication 800-63B(Digital Identity Guidelines), https://pages.nist.gov/800-63-4/sp800-63b.html Accessed: 2025.07.20↩︎"
   },
   {
-    "objectID": "posts/so-called-intelligences/index.html",
-    "href": "posts/so-called-intelligences/index.html",
-    "title": "所謂「情資」？",
+    "objectID": "posts/system-3principles/index.html",
+    "href": "posts/system-3principles/index.html",
+    "title": "對資訊系統發展的幾點省思",
     "section": "",
-    "text": "你會相信某件事，是因為你需要相信；至於你相信或不信什麼，這本身並沒有價值，沒有功用。 – 勒卡雷 《冷戰碟魂》\n在公部門資訊單位工作，可能常常收到某些機構的通知，說是根據「情資」顯示，近期（例如520總統就職週年、雙十國慶、選舉投票日前…）將會有「密集網路攻擊」，提醒大家注意防範。但很少有人會問，這些所謂的「情資」是怎麼來的？\n間碟小說大師約翰．勒卡雷（John le Carre）在他的回憶錄《此生如鴿》裡講述了這麼個故事（可能是他的實際經驗）：英國情報局保有一個貼附在局長室墻上的綠色保險箱，據說裡面放著極度機密的東西，只有局長有籲匙能打開，但多年來從未有人見過此保險箱被打開過。後來由於情報局的大樓要拆除重建，就請現任局長將保險箱內東西取出，但現任局長說他根本沒有籲匙。於是只好去問歷任局長，不料他們都說從未持有該保險箱的籲匙，只知道該保險箱是二戰期間由當時的局長史都華．孟濟斯爵士（Stewart Menzies）下令裝設的。所以是孟濟斯爵士把鑰匙帶走了？而且和他一起下葬了嗎？\n經過請示高層後，找來局內的「小偷」，保險箱以極其令人難堪的速度被打開了，但保險箱內卻空無一物。這是個障眼法嗎？經過資深官員檢視後，發現保險箱後面似乎另有蹊蹺，於是找來撬棍，將保險箱後牆面撬下來，赫然發現保險箱和牆面間有一條又厚又舊的灰色長褲。褲子上別了一張紙條，其上有打字機打的一段文字，宣稱這條褲子是希特勒的副手魯道夫．赫斯（Rudolf Hess）在1941年來英國時所穿的褲子。這段文字下方有一行用綠水墨水寫的字（依照慣例，只有局長能用綠色墨水）\n請分析，或許可以藉此瞭解德國紡織業的現況。\n英國作家格雷安．葛林 (Graham Greene) 1958年的小說《哈瓦那特派員》(Our Friend in Havana) 講述冷戰期間，一名在古巴哈瓦那賣吸塵器的英國商人-伍爾摩的故事。伍爾摩人到中年，事業和婚姻都不順利，加上有個愛花錢的女兒，是以經濟上時見拮据。英國情報局的特工找上伍摩爾，請他蒐集哈瓦那當地的「情資」，並將支付他薪酬和費用（大抵是論件計酬的意思）。於是間碟打工仔伍爾摩開始杜撰各種情資，為了申請更多的費用，甚至發展下線情報網，「生意」越作越大。有一回，伍爾摩聲稱他「發現」了一個秘密軍事基地，並且附上該基地正在發展的毀滅性武器藍圖。但事實是，此藍圖是他將吸塵器拆開後，按其內部構件-吸嘴、噴氣口、套管等，依比例放大後所繪成（例如一英吋放大為三英呎）。\n英國人收到此情資後，大為震驚，沒人知道古巴人想作什麼。大半天後，一位工作人員囁囁地指出，這不就像是個超大型的吸塵器嗎？長官一臉憂心地回答：「這就是我害怕的原因。」（他害怕什麼？）\n當然，以上二則可能都只是小說裡的「故事」，對於宣稱所謂網路攻擊的這類情資，我們還是必須「戒慎恐懼」，至於要不要相信這類情資，套一句葛林在他另一部小說《沉靜的美國人》裡所說的：「人遲早要選一邊站的，如果你還想當個人的話。」"
+    "text": "現今對軟體（資訊系統）的分類大抵可分為三類：(1)嵌入型軟體（Embedded Software），通常是指嵌入在硬體設備中的軟體，比如家電、汽車控制系統、醫療設備等；(2)產品型軟體（Software Product），就是通用的，針對大眾市場的軟體，比如微軟的 Office、Photoshop等，這些產品通常是標準化的，滿足廣泛的需求，藉由販售授權或訂閱等方式盈利； (3)客製型軟體（Taylor-made Software System），指根據特定客戶需求定制的軟體，比如企業內部的ERP系統，或者政府機構的定製解決方案。這類軟體是為特定使用者或組織開發的，滿足個別獨特的需求，可能不會在市場上公開銷售。1\n本文主要聚焦在客製型軟體，主要基於個人就過往工作經驗上的一些觀察及省思，特別是公務機關的資訊系統。雖然現行有些公務機關會採用所謂的「公版」資訊系統（類似產品型軟體，例如差勤系統等），但大多數仍得委託該系統的原開發廠商，根據該機關特殊的「需求」再客製一番，有時候客製的範圍，幾乎與新開發不相上下。而有些私人企業在導入 ERP 系統，或是所謂的企業資訊系統時，也有類似情況，是以容或可類比參考。至於其他二類軟體，由於銷售、盈利模式，及生產邊際成本不同，其考量重點或思考角度有所差異，不在討論範圍。"
   },
   {
-    "objectID": "posts/so-called-intelligences/index.html#footnotes",
-    "href": "posts/so-called-intelligences/index.html#footnotes",
-    "title": "所謂「情資」？",
+    "objectID": "posts/system-3principles/index.html#footnotes",
+    "href": "posts/system-3principles/index.html#footnotes",
+    "title": "對資訊系統發展的幾點省思",
     "section": "注釋及參考資料",
-    "text": "注釋及參考資料\n\n\n聯合報，2025/02/21【重磅快評】情報員虛構假情資詐獎金 賴政府用假訊息抗中保台 https://udn.com/news/story/6656/8563710 Accessed:2025.02.24↩︎"
+    "text": "注釋及參考資料\n\n\nFernandes, João M., and Ricardo J. Machado. 2016. Requirements in Engineering Projects. Lecture Notes in Management and Industrial Engineering. Cham: Springer International Publishing.↩︎\n中央社，3天前發現通報數有異 陳時中曝「校正回歸」始末https://www.cna.com.tw/news/firstnews/202105220220.aspx↩︎\nWaller, Paul, and V. Weerakkody. 2016. “Digital Government: Overcoming the Systemic Failure of Transformation. Digital Transformation through Policy Design with ICT-Enhanced Instruments.” SSRN Electronic Journal. Elsevier BV.↩︎\n勞動部針對勞動力發展署北基宜花金馬分署 113 年職場霸凌事件重啟行政調查報告↩︎\n勞動部 113 年勞動力發展署北基宜花金馬分署 疑似涉及職場霸凌事件行政調查說明資料↩︎\nBrooks, Frederick P. 1995. The Mythical Man-Month. Essays on Software Engineering, Anniversary Edition. 2 ed. Addison-Wesley Professional.↩︎"
   },
   {
-    "objectID": "posts/pw-complication/index.html",
-    "href": "posts/pw-complication/index.html",
-    "title": "關於密碼(2) - 密碼要設成 N3v@rM1^d! 這樣嗎？",
+    "objectID": "posts/qiantang-river-engineers/index.html",
+    "href": "posts/qiantang-river-engineers/index.html",
+    "title": "錢塘江水工症候群",
     "section": "",
-    "text": "大可不必。因為你根本記不來，而且，設成這樣也沒有比較「安全」。密碼強度的關鍵在長度，不是複雜度。"
+    "text": "宋人沈括的《夢溪筆談》中講了一則故事：錢塘江的石堤經年受潮水衝擊而毀壞，杜偉長任轉運使時，有人建議從浙江稅場的東邊，修築一道半月形的堤防，以避開潮水。大家都認為這個建議可行，但有年邁的水工卻暗中告知其同事：「新堤築好後，每年就沒有水患，那我們豈不就沒頭路啦？」（移堤則歲無水患，吾等何所衣食？）於是眾人都附和他，反對此項建議。於是錢塘江每年潰堤的災害持續發生（水工們得以保住飯碗）。1\n這則故事充分說明組織成員基於私益而阻礙公益的現象。組織在導入資訊系統或新技術時，類似情況尤為普遍。以下舉幾個在公務機關的實例：\n以上所舉的例子，主事者最常見的說詞是：「規定就是這樣作啊，我們是『依法行政』耶，如果電腦系統不能配合這種作法或流程，就是違反規定，誰要負這個責任啊？」在這種壓力下，負責推動電腦系統的單位，通常只能「龜縮」，然後整出一個「不像泥鰍不像鰻魚」的系統，效益大打折扣。\n回頭再看一下《夢溪筆談》這則故事的後半段：「偉長不悟其計，費以巨萬，而江堤之害仍歲有之。」大意是說，錢偉長沒能察覺水工們的「詭計」，於是每年仍花費鉅資，照舊章行事，以致錢塘江仍年年發生潰堤災害。錢偉長真的沒能察覺水工們的詭計嗎? 或是他察覺了，但碍於現實，不敢堅持「作對的事」？是以水工們固然可鄙，但錢塘江堤得否整治，關鍵恐怕還是在錢偉長，不論他悟計與否。\n隨著科技演進，傳統紙本作業時代的流程及作法，早就應該通盤檢討其必要性，重新思考設計契合電腦及網路技術特性的作法，也就是從「本質」上思考解決方案，而不是一昧追求「表象」的技術口號，徒務虛而不務實。現今公務機關普遍仍存在各種不同型態的錢塘江水工症候群，主管機關(上位者如錢偉長們)真的是「未悟其計」嗎？抑或是悟其計，但卻基於某些原因，只能因循苟且，作不了？或是不想作該作的事？"
   },
   {
-    "objectID": "posts/pw-complication/index.html#footnotes",
-    "href": "posts/pw-complication/index.html#footnotes",
-    "title": "關於密碼(2) - 密碼要設成 N3v@rM1^d! 這樣嗎？",
+    "objectID": "posts/qiantang-river-engineers/index.html#footnotes",
+    "href": "posts/qiantang-river-engineers/index.html#footnotes",
+    "title": "錢塘江水工症候群",
     "section": "注釋及參考資料",
-    "text": "注釋及參考資料\n\n\n寺尾哲也，「我與我的密碼，」聯合報(2025) https://reading.udn.com/read/story/7048/8911835. [Accessed: Aug. 03, 2025]↩︎\n熵值（Entropy）的概念源自於美國數學家夏農（Claude Shannon）的資訊理論（Information Theory），夏農定義了「資訊熵」來衡量一個訊息所包含的不確定性或隨機性，單位通常是位元（bits, 這是公式中對數以2為底的原因）。 當我們說一個密碼的熵值高，就表示這個密碼包含的資訊量大，其組合的可能性非常多，以至於很難被猜中或破解。所以，熵值可以看成是量化密碼「多難猜」的一個客觀指標。↩︎\nNIST Special Publication 800-63B(Digital Identity Guidelines), https://pages.nist.gov/800-63-4/sp800-63b.html Accessed: 2025.07.20↩︎"
-  },
-  {
-    "objectID": "posts/how-many-cyber-attacks/index.html",
-    "href": "posts/how-many-cyber-attacks/index.html",
-    "title": "臺灣遭受網路攻擊的次數？",
-    "section": "",
-    "text": "為了凸顯資通安全的重要，除了高舉「資安就是國安」這種口號外，公部門、學界及所謂的資安產業界最常用的招數，就是標榜臺灣是遭受網路攻擊的「重災區」。究竟臺灣被網路攻擊的次數是多少呢？以下是幾種說法："
-  },
-  {
-    "objectID": "posts/how-many-cyber-attacks/index.html#footnotes",
-    "href": "posts/how-many-cyber-attacks/index.html#footnotes",
-    "title": "臺灣遭受網路攻擊的次數？",
-    "section": "注釋及參考資料",
-    "text": "注釋及參考資料\n\n\n立法院第10屆第4會期內政委員會第14次全體委員會議紀錄，中華民國110年11月10日↩︎\n行政院國家資通安全會報技術服中心，110年資通安全技術年報，中華民國111年7月，p.19↩︎\nhttps://www.youtube.com/watch?v=qMHsJGn5tc8 Accessed:2024.07.18↩︎\nhttps://pansci.asia/archives/331019 這篇報導係轉載科技大觀園網站：曾繁安，物聯網的資安攻防大戰！臺灣該如何見招拆招？Accessed:2024.07.18；原文並未提及「每分鐘15次駭客攻擊」。↩︎\n自由時報 2022/11/07, https://ec.ltn.com.tw/article/breakingnews/4115381 Accessed:2024.07.18↩︎\nSpafford, E., L. Metcalf, J. Dykstra, Cybersecurity Myths and Misconceptions ( Chapter 14: Lies, Damn Lies, and Statistics), Addison-Wesley, 2023.↩︎\n丹‧賈德納（Dan Gardner）, 李靜怡、黃慧慧譯，販賣恐懼-脫軌的風險判斷，博雅書屋，p.173, 台北，2009.↩︎\n中央社 2025/01/05, 國安局：2024年每日遭中共網攻240萬次 比前1年翻倍， https://www.cna.com.tw/news/aipl/202501050041.aspx Accessed:2025.02.18↩︎"
-  },
-  {
-    "objectID": "posts/clients-dont-know-what-they-need/index.html",
-    "href": "posts/clients-dont-know-what-they-need/index.html",
-    "title": "客戶其實並不清楚自己想要的是什麼",
-    "section": "",
-    "text": "這是真的。\n佛瑞德．布魯克斯（Frederick Brooks, Jr. 1931-2022）1在學生時期曾在一家軍火商打工，他被要求設計一個小型資料庫，用來追蹤某個雷達子系統上萬張圖說及其更新狀態。幾星期後，他很自豪地向客戶展示系統輸出的報表，但是他的客戶卻希望他「把這裡改一下…」。隔天他依客戶的意見改了，客戶又說「把那裡改一下…」；在接下來的幾個星期，每天不斷重複這種過程，他的客戶會彬彬有禮的根據前一天的修改結果，提出另一個修改的「需求」。\n系統本身其實很簡單（但當時程式是要打在卡片上的），而每次的修改的項目也很「平淡」，像是調整排序條件、排列方式（縮格）、或是替某些值得注意的項目標上星號等。當時布魯克斯很氣憤：「為什麼客戶不能把想要的東西一次說清楚，而是每天擠一點呢？」\n後來他意識到，他為客戶所提供的服務，是在幫助客戶「決定什麼是他想要的」；換句話說，客戶其實並不清楚自己想要的是什麼！所以，布魯克斯認為：軟體系統想要在開發初期就能瞭解「整個產品需求」，並不太可能。而設計師的主要任務則是「幫助客戶發現他們想要的設計」（A chief service of a designer is helping clients discover what they want designed.）2\n絕大部分從事客製型軟體系統（taylor-made software system）或軟體專案開發的人員都有類似上述的經驗，很遺憾，50多年過去了，這種情況並沒有太大改變，也沒有完善的解決方案。或許正如布魯克斯所說的，在軟體工程領域，不存在銀色的子彈（No Silver Bullet—Essence and Accidents of Software Engineering）。3"
-  },
-  {
-    "objectID": "posts/clients-dont-know-what-they-need/index.html#footnotes",
-    "href": "posts/clients-dont-know-what-they-need/index.html#footnotes",
-    "title": "客戶其實並不清楚自己想要的是什麼",
-    "section": "注釋及參考資料",
-    "text": "注釋及參考資料\n\n\n佛瑞德．布魯克斯（Frederick Brooks, Jr. 1931-2022）美國電腦科學家，1999年圖靈獎得主，1993年IEEE馮紐曼獎章得主；曾在IBM公司主持開發OS/360等大型電腦作業系統，著有《人月神話》（The Mythical Man-Month: Essays on Software Engineering）。↩︎\nFrederick Brooks and John Fuller, Design of Design, The Essays from a Computer Scientist. 1st edition. Upper Saddle River, N.J: Addison-Wesley Professional (2010) pp. 23-24.↩︎\nFrederick Brooks,“No silver bullet—essence and accidents of software engineering,” in Information Processing 86, H. J. Kugler, ed. Amsterdam: Elsevier Science (North Holland), (1986) pp. 1069-1076.↩︎"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "想東想西，想東西Yuchi’s Notes",
-    "section": "",
-    "text": "你不要那樣看著我的眼睛 我就怕你會看穿我的心……\n\n但何必就這個主題不斷推理，糾纏於人呢？直說吧！你既然看過鯨魚噴水，那就說說這噴水是什麼；你難道分不清水和空氣嗎？可敬的先生啊，這世上有些東西看似平凡無奇，但想釐清卻不容易。許多看似簡單的事情，往往最為複雜。就拿這鯨魚的噴水來說吧，就算你站在裡面，卻仍然難以確定它究竟是什麼。 – 梅爾維爾《白鯨記》第85章"
-  },
-  {
-    "objectID": "posts/event-incident/index.html",
-    "href": "posts/event-incident/index.html",
-    "title": "事件 vs. 事故",
-    "section": "",
-    "text": "您若是實際從事系統及網路的操作管理、 IT 維運，或所謂的資安工作（強調「實際從事」，而非資安稽核或是資安顧問），可能經常困惑於事件（event）或是事故（incident）這二個名詞。在不同機構或文件，對這二個名詞的認知、解讀甚至是譯法，都不儘相同。最特別是， 資通安全管理法（下稱資安法）中所用的詞是「資通安全事件」，而在其英譯法規中則是譯作 cyber security incident（應為「事故」，法規中英文相互矛盾）, 而中華民國國家標準（CNS）則用「資訊安全事件（information security event）」及「資訊安全事故（information security incident）」1。「事件」究竟指的是 event 或是 incident? 資安法的條文中英文不僅分歧，同時也與國家標準，甚至國際標準相互矛盾。 這不僅凸顯了現行資安專業術語的紊亂，更 顯露了臺灣資安治理長期被忽略的 「定義模糊性(ambiguity)」問題。"
-  },
-  {
-    "objectID": "posts/event-incident/index.html#footnotes",
-    "href": "posts/event-incident/index.html#footnotes",
-    "title": "事件 vs. 事故",
-    "section": "注釋及參考資料",
-    "text": "注釋及參考資料\n\n\n經濟部標準檢驗局，中華民國國家標準 CNS 27000:2016 X6101（其內容大抵迻譯ISO27000文件）↩︎\n同注釋[1]↩︎\nNIST SP 800-61r3, “Incident Response Recommendations and Considerations for Cybersecurity Risk Management,” April, 2025.↩︎\n(1)利用殭屍網路（botnet）發送大量連線請求，致其無法提供正常服務。 (2)取得軟體即服務（SaaS）供應商的管理權限，致使用該服務之客戶敏感資料面臨風險。 (3)入侵企業營運網路竊取憑證，並藉以操控工業控制系統，關閉或破壞實體組件，造成重大服務中斷 (4)部署勒索軟體癱瘓電腦系統運作，引發資料外洩事件。 (5)透過釣魚郵件入侵使用者帳號，再利用該帳號進行詐騙。 (6)發現網路管理設備的新漏洞，並利用此漏洞存取網路通訊內容。 (7)入侵供應商軟體，篡改版本後分派至客戶端。↩︎\nDaniel Miessler, The Difference Between Events, Alerts, and Incidents, https://danielmiessler.com/blog/event-alert-incident Accessed: 2025.07.10↩︎\n自由時報,「糗了！台灣資安主管聯盟成立大會視訊斷線，唐鳳笑回這也算資安」\nhttps://ec.ltn.com.tw/article/breakingnews/3908781 Accessed:2025.07.10↩︎"
+    "text": "注釋及參考資料\n\n\n沈括《夢溪筆談‧官政一》：「錢塘江石堤為洪濤所激，歲歲摧決。杜偉長為轉運使，人有獻說，自浙江稅場以東，移退數里為月堤，以避怒水。眾水工皆以為善，獨一老水工以為不然，密諭其黨：『移堤則歲無水患，吾等何所衣食？』眾人樂其利，乃從而和之。偉長不悟其計，費以巨萬，而江堤之害仍歲有之。」↩︎\n喬登．彼得森（Jordan Peterson）著，劉思潔，何雪綾譯，《生存的12條法則：當代最具影響力的公共知識分子，對混亂生活開出的解方》大家出版，(2019) p.53↩︎\n公務機關基於授權，部分人員會持有首長的職章；例如：假設局長為王○○，則副局長可能領有局長王○○(甲)的職章，而主任秘書可能領有局長王○○(乙)的職章。↩︎"
   },
   {
     "objectID": "posts/most-complained-IT-works/index.html",
@@ -119,18 +63,88 @@
     "text": "注釋及參考資料\n\n\nM. Settle, Truth from the Valley: A Practical Primer on Future IT Management Trends. 2020.↩︎"
   },
   {
-    "objectID": "posts/qiantang-river-engineers/index.html",
-    "href": "posts/qiantang-river-engineers/index.html",
-    "title": "錢塘江水工症候群",
+    "objectID": "posts/event-incident/index.html",
+    "href": "posts/event-incident/index.html",
+    "title": "事件 vs. 事故",
     "section": "",
-    "text": "宋人沈括的《夢溪筆談》中講了一則故事：錢塘江的石堤經年受潮水衝擊而毀壞，杜偉長任轉運使時，有人建議從浙江稅場的東邊，修築一道半月形的堤防，以避開潮水。大家都認為這個建議可行，但有年邁的水工卻暗中告知其同事：「新堤築好後，每年就沒有水患，那我們豈不就沒頭路啦？」（移堤則歲無水患，吾等何所衣食？）於是眾人都附和他，反對此項建議。於是錢塘江每年潰堤的災害持續發生（水工們得以保住飯碗）。1\n這則故事充分說明組織成員基於私益而阻礙公益的現象。組織在導入資訊系統或新技術時，類似情況尤為普遍。以下舉幾個在公務機關的實例：\n以上所舉的例子，主事者最常見的說詞是：「規定就是這樣作啊，我們是『依法行政』耶，如果電腦系統不能配合這種作法或流程，就是違反規定，誰要負這個責任啊？」在這種壓力下，負責推動電腦系統的單位，通常只能「龜縮」，然後整出一個「不像泥鰍不像鰻魚」的系統，效益大打折扣。\n回頭再看一下《夢溪筆談》這則故事的後半段：「偉長不悟其計，費以巨萬，而江堤之害仍歲有之。」大意是說，錢偉長沒能察覺水工們的「詭計」，於是每年仍花費鉅資，照舊章行事，以致錢塘江仍年年發生潰堤災害。錢偉長真的沒能察覺水工們的詭計嗎? 或是他察覺了，但碍於現實，不敢堅持「作對的事」？是以水工們固然可鄙，但錢塘江堤得否整治，關鍵恐怕還是在錢偉長，不論他悟計與否。\n隨著科技演進，傳統紙本作業時代的流程及作法，早就應該通盤檢討其必要性，重新思考設計契合電腦及網路技術特性的作法，也就是從「本質」上思考解決方案，而不是一昧追求「表象」的技術口號，徒務虛而不務實。現今公務機關普遍仍存在各種不同型態的錢塘江水工症候群，主管機關(上位者如錢偉長們)真的是「未悟其計」嗎？抑或是悟其計，但卻基於某些原因，只能因循苟且，作不了？或是不想作該作的事？"
+    "text": "您若是實際從事系統及網路的操作管理、 IT 維運，或所謂的資安工作（強調「實際從事」，而非資安稽核或是資安顧問），可能經常困惑於事件（event）或是事故（incident）這二個名詞。在不同機構或文件，對這二個名詞的認知、解讀甚至是譯法，都不儘相同。最特別是， 資通安全管理法（下稱資安法）中所用的詞是「資通安全事件」，而在其英譯法規中則是譯作 cyber security incident（應為「事故」，法規中英文相互矛盾）, 而中華民國國家標準（CNS）則用「資訊安全事件（information security event）」及「資訊安全事故（information security incident）」1。「事件」究竟指的是 event 或是 incident? 資安法的條文中英文不僅分歧，同時也與國家標準，甚至國際標準相互矛盾。 這不僅凸顯了現行資安專業術語的紊亂，更 顯露了臺灣資安治理長期被忽略的 「定義模糊性(ambiguity)」問題。"
   },
   {
-    "objectID": "posts/qiantang-river-engineers/index.html#footnotes",
-    "href": "posts/qiantang-river-engineers/index.html#footnotes",
-    "title": "錢塘江水工症候群",
+    "objectID": "posts/event-incident/index.html#footnotes",
+    "href": "posts/event-incident/index.html#footnotes",
+    "title": "事件 vs. 事故",
     "section": "注釋及參考資料",
-    "text": "注釋及參考資料\n\n\n沈括《夢溪筆談‧官政一》：「錢塘江石堤為洪濤所激，歲歲摧決。杜偉長為轉運使，人有獻說，自浙江稅場以東，移退數里為月堤，以避怒水。眾水工皆以為善，獨一老水工以為不然，密諭其黨：『移堤則歲無水患，吾等何所衣食？』眾人樂其利，乃從而和之。偉長不悟其計，費以巨萬，而江堤之害仍歲有之。」↩︎\n喬登．彼得森（Jordan Peterson）著，劉思潔，何雪綾譯，《生存的12條法則：當代最具影響力的公共知識分子，對混亂生活開出的解方》大家出版，(2019) p.53↩︎\n公務機關基於授權，部分人員會持有首長的職章；例如：假設局長為王○○，則副局長可能領有局長王○○(甲)的職章，而主任秘書可能領有局長王○○(乙)的職章。↩︎"
+    "text": "注釋及參考資料\n\n\n經濟部標準檢驗局，中華民國國家標準 CNS 27000:2016 X6101（其內容大抵迻譯ISO27000文件）↩︎\n同注釋[1]↩︎\nNIST SP 800-61r3, “Incident Response Recommendations and Considerations for Cybersecurity Risk Management,” April, 2025.↩︎\n(1)利用殭屍網路（botnet）發送大量連線請求，致其無法提供正常服務。 (2)取得軟體即服務（SaaS）供應商的管理權限，致使用該服務之客戶敏感資料面臨風險。 (3)入侵企業營運網路竊取憑證，並藉以操控工業控制系統，關閉或破壞實體組件，造成重大服務中斷 (4)部署勒索軟體癱瘓電腦系統運作，引發資料外洩事件。 (5)透過釣魚郵件入侵使用者帳號，再利用該帳號進行詐騙。 (6)發現網路管理設備的新漏洞，並利用此漏洞存取網路通訊內容。 (7)入侵供應商軟體，篡改版本後分派至客戶端。↩︎\nDaniel Miessler, The Difference Between Events, Alerts, and Incidents, https://danielmiessler.com/blog/event-alert-incident Accessed: 2025.07.10↩︎\n自由時報,「糗了！台灣資安主管聯盟成立大會視訊斷線，唐鳳笑回這也算資安」\nhttps://ec.ltn.com.tw/article/breakingnews/3908781 Accessed:2025.07.10↩︎"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "想東想西，想東西Yuchi’s Notes",
+    "section": "",
+    "text": "你不要那樣看著我的眼睛 我就怕你會看穿我的心……\n\n但何必就這個主題不斷推理，糾纏於人呢？直說吧！你既然看過鯨魚噴水，那就說說這噴水是什麼；你難道分不清水和空氣嗎？可敬的先生啊，這世上有些東西看似平凡無奇，但想釐清卻不容易。許多看似簡單的事情，往往最為複雜。就拿這鯨魚的噴水來說吧，就算你站在裡面，卻仍然難以確定它究竟是什麼。 – 梅爾維爾《白鯨記》第85章"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/clients-dont-know-what-they-need/index.html",
+    "href": "posts/clients-dont-know-what-they-need/index.html",
+    "title": "客戶其實並不清楚自己想要的是什麼",
+    "section": "",
+    "text": "這是真的。\n佛瑞德．布魯克斯（Frederick Brooks, Jr. 1931-2022）1在學生時期曾在一家軍火商打工，他被要求設計一個小型資料庫，用來追蹤某個雷達子系統上萬張圖說及其更新狀態。幾星期後，他很自豪地向客戶展示系統輸出的報表，但是他的客戶卻希望他「把這裡改一下…」。隔天他依客戶的意見改了，客戶又說「把那裡改一下…」；在接下來的幾個星期，每天不斷重複這種過程，他的客戶會彬彬有禮的根據前一天的修改結果，提出另一個修改的「需求」。\n系統本身其實很簡單（但當時程式是要打在卡片上的），而每次的修改的項目也很「平淡」，像是調整排序條件、排列方式（縮格）、或是替某些值得注意的項目標上星號等。當時布魯克斯很氣憤：「為什麼客戶不能把想要的東西一次說清楚，而是每天擠一點呢？」\n後來他意識到，他為客戶所提供的服務，是在幫助客戶「決定什麼是他想要的」；換句話說，客戶其實並不清楚自己想要的是什麼！所以，布魯克斯認為：軟體系統想要在開發初期就能瞭解「整個產品需求」，並不太可能。而設計師的主要任務則是「幫助客戶發現他們想要的設計」（A chief service of a designer is helping clients discover what they want designed.）2\n絕大部分從事客製型軟體系統（taylor-made software system）或軟體專案開發的人員都有類似上述的經驗，很遺憾，50多年過去了，這種情況並沒有太大改變，也沒有完善的解決方案。或許正如布魯克斯所說的，在軟體工程領域，不存在銀色的子彈（No Silver Bullet—Essence and Accidents of Software Engineering）。3"
+  },
+  {
+    "objectID": "posts/clients-dont-know-what-they-need/index.html#footnotes",
+    "href": "posts/clients-dont-know-what-they-need/index.html#footnotes",
+    "title": "客戶其實並不清楚自己想要的是什麼",
+    "section": "注釋及參考資料",
+    "text": "注釋及參考資料\n\n\n佛瑞德．布魯克斯（Frederick Brooks, Jr. 1931-2022）美國電腦科學家，1999年圖靈獎得主，1993年IEEE馮紐曼獎章得主；曾在IBM公司主持開發OS/360等大型電腦作業系統，著有《人月神話》（The Mythical Man-Month: Essays on Software Engineering）。↩︎\nFrederick Brooks and John Fuller, Design of Design, The Essays from a Computer Scientist. 1st edition. Upper Saddle River, N.J: Addison-Wesley Professional (2010) pp. 23-24.↩︎\nFrederick Brooks,“No silver bullet—essence and accidents of software engineering,” in Information Processing 86, H. J. Kugler, ed. Amsterdam: Elsevier Science (North Holland), (1986) pp. 1069-1076.↩︎"
+  },
+  {
+    "objectID": "posts/how-many-cyber-attacks/index.html",
+    "href": "posts/how-many-cyber-attacks/index.html",
+    "title": "臺灣遭受網路攻擊的次數？",
+    "section": "",
+    "text": "為了凸顯資通安全的重要，除了高舉「資安就是國安」這種口號外，公部門、學界及所謂的資安產業界最常用的招數，就是標榜臺灣是遭受網路攻擊的「重災區」。究竟臺灣被網路攻擊的次數是多少呢？以下是幾種說法："
+  },
+  {
+    "objectID": "posts/how-many-cyber-attacks/index.html#footnotes",
+    "href": "posts/how-many-cyber-attacks/index.html#footnotes",
+    "title": "臺灣遭受網路攻擊的次數？",
+    "section": "注釋及參考資料",
+    "text": "注釋及參考資料\n\n\n立法院第10屆第4會期內政委員會第14次全體委員會議紀錄，中華民國110年11月10日↩︎\n行政院國家資通安全會報技術服中心，110年資通安全技術年報，中華民國111年7月，p.19↩︎\nhttps://www.youtube.com/watch?v=qMHsJGn5tc8 Accessed:2024.07.18↩︎\nhttps://pansci.asia/archives/331019 這篇報導係轉載科技大觀園網站：曾繁安，物聯網的資安攻防大戰！臺灣該如何見招拆招？Accessed:2024.07.18；原文並未提及「每分鐘15次駭客攻擊」。↩︎\n自由時報 2022/11/07, https://ec.ltn.com.tw/article/breakingnews/4115381 Accessed:2024.07.18↩︎\nSpafford, E., L. Metcalf, J. Dykstra, Cybersecurity Myths and Misconceptions ( Chapter 14: Lies, Damn Lies, and Statistics), Addison-Wesley, 2023.↩︎\n丹‧賈德納（Dan Gardner）, 李靜怡、黃慧慧譯，販賣恐懼-脫軌的風險判斷，博雅書屋，p.173, 台北，2009.↩︎\n中央社 2025/01/05, 國安局：2024年每日遭中共網攻240萬次 比前1年翻倍， https://www.cna.com.tw/news/aipl/202501050041.aspx Accessed:2025.02.18↩︎"
+  },
+  {
+    "objectID": "posts/pw-complication/index.html",
+    "href": "posts/pw-complication/index.html",
+    "title": "關於密碼(2) - 密碼要設成 N3v@rM1^d! 這樣嗎？",
+    "section": "",
+    "text": "大可不必。因為你根本記不來，而且，設成這樣也沒有比較「安全」。密碼強度的關鍵在長度，不是複雜度。"
+  },
+  {
+    "objectID": "posts/pw-complication/index.html#footnotes",
+    "href": "posts/pw-complication/index.html#footnotes",
+    "title": "關於密碼(2) - 密碼要設成 N3v@rM1^d! 這樣嗎？",
+    "section": "注釋及參考資料",
+    "text": "注釋及參考資料\n\n\n寺尾哲也，「我與我的密碼，」聯合報(2025) https://reading.udn.com/read/story/7048/8911835. [Accessed: Aug. 03, 2025]↩︎\n熵值（Entropy）的概念源自於美國數學家夏農（Claude Shannon）的資訊理論（Information Theory），夏農定義了「資訊熵」來衡量一個訊息所包含的不確定性或隨機性，單位通常是位元（bits, 這是公式中對數以2為底的原因）。 當我們說一個密碼的熵值高，就表示這個密碼包含的資訊量大，其組合的可能性非常多，以至於很難被猜中或破解。所以，熵值可以看成是量化密碼「多難猜」的一個客觀指標。↩︎\nNIST Special Publication 800-63B(Digital Identity Guidelines), https://pages.nist.gov/800-63-4/sp800-63b.html Accessed: 2025.07.20↩︎"
+  },
+  {
+    "objectID": "posts/so-called-intelligences/index.html",
+    "href": "posts/so-called-intelligences/index.html",
+    "title": "所謂「情資」？",
+    "section": "",
+    "text": "你會相信某件事，是因為你需要相信；至於你相信或不信什麼，這本身並沒有價值，沒有功用。 – 勒卡雷 《冷戰碟魂》\n在公部門資訊單位工作，可能常常收到某些機構的通知，說是根據「情資」顯示，近期（例如520總統就職週年、雙十國慶、選舉投票日前…）將會有「密集網路攻擊」，提醒大家注意防範。但很少有人會問，這些所謂的「情資」是怎麼來的？\n間碟小說大師約翰．勒卡雷（John le Carre）在他的回憶錄《此生如鴿》裡講述了這麼個故事（可能是他的實際經驗）：英國情報局保有一個貼附在局長室墻上的綠色保險箱，據說裡面放著極度機密的東西，只有局長有籲匙能打開，但多年來從未有人見過此保險箱被打開過。後來由於情報局的大樓要拆除重建，就請現任局長將保險箱內東西取出，但現任局長說他根本沒有籲匙。於是只好去問歷任局長，不料他們都說從未持有該保險箱的籲匙，只知道該保險箱是二戰期間由當時的局長史都華．孟濟斯爵士（Stewart Menzies）下令裝設的。所以是孟濟斯爵士把鑰匙帶走了？而且和他一起下葬了嗎？\n經過請示高層後，找來局內的「小偷」，保險箱以極其令人難堪的速度被打開了，但保險箱內卻空無一物。這是個障眼法嗎？經過資深官員檢視後，發現保險箱後面似乎另有蹊蹺，於是找來撬棍，將保險箱後牆面撬下來，赫然發現保險箱和牆面間有一條又厚又舊的灰色長褲。褲子上別了一張紙條，其上有打字機打的一段文字，宣稱這條褲子是希特勒的副手魯道夫．赫斯（Rudolf Hess）在1941年來英國時所穿的褲子。這段文字下方有一行用綠水墨水寫的字（依照慣例，只有局長能用綠色墨水）\n請分析，或許可以藉此瞭解德國紡織業的現況。\n英國作家格雷安．葛林 (Graham Greene) 1958年的小說《哈瓦那特派員》(Our Friend in Havana) 講述冷戰期間，一名在古巴哈瓦那賣吸塵器的英國商人-伍爾摩的故事。伍爾摩人到中年，事業和婚姻都不順利，加上有個愛花錢的女兒，是以經濟上時見拮据。英國情報局的特工找上伍摩爾，請他蒐集哈瓦那當地的「情資」，並將支付他薪酬和費用（大抵是論件計酬的意思）。於是間碟打工仔伍爾摩開始杜撰各種情資，為了申請更多的費用，甚至發展下線情報網，「生意」越作越大。有一回，伍爾摩聲稱他「發現」了一個秘密軍事基地，並且附上該基地正在發展的毀滅性武器藍圖。但事實是，此藍圖是他將吸塵器拆開後，按其內部構件-吸嘴、噴氣口、套管等，依比例放大後所繪成（例如一英吋放大為三英呎）。\n英國人收到此情資後，大為震驚，沒人知道古巴人想作什麼。大半天後，一位工作人員囁囁地指出，這不就像是個超大型的吸塵器嗎？長官一臉憂心地回答：「這就是我害怕的原因。」（他害怕什麼？）\n當然，以上二則可能都只是小說裡的「故事」，對於宣稱所謂網路攻擊的這類情資，我們還是必須「戒慎恐懼」，至於要不要相信這類情資，套一句葛林在他另一部小說《沉靜的美國人》裡所說的：「人遲早要選一邊站的，如果你還想當個人的話。」"
+  },
+  {
+    "objectID": "posts/so-called-intelligences/index.html#footnotes",
+    "href": "posts/so-called-intelligences/index.html#footnotes",
+    "title": "所謂「情資」？",
+    "section": "注釋及參考資料",
+    "text": "注釋及參考資料\n\n\n聯合報，2025/02/21【重磅快評】情報員虛構假情資詐獎金 賴政府用假訊息抗中保台 https://udn.com/news/story/6656/8563710 Accessed:2025.02.24↩︎"
   },
   {
     "objectID": "posts/system-or-people/index.html",
@@ -151,6 +165,6 @@
     "href": "posts.html",
     "title": "工作筆記",
     "section": "",
-    "text": "關於密碼(2) - 密碼要設成 N3v@rM1^d! 這樣嗎？\n\n\n\n\n\n\n資安\n\n\nIT 維運\n\n\n\n\n\n\n\n\n\nJul 30, 2025\n\n\n\n\n\n\n\n關於密碼(1) - 為什麼每90天要改密碼？\n\n\n\n\n\n\n資安\n\n\nIT 維運\n\n\n\n\n\n\n\n\n\nJul 30, 2025\n\n\n\n\n\n\n\n事件 vs. 事故\n\n\n\n\n\n\n資安\n\n\nIT 維運\n\n\n\n\n\n\n\n\n\nJul 20, 2025\n\n\n\n\n\n\n\n資安？還是人安？\n\n\n\n\n\n\n資安\n\n\nIT 維運\n\n\n\n\n\n\n\n\n\nJun 30, 2025\n\n\n\n\n\n\n\n客戶其實並不清楚自己想要的是什麼\n\n\n\n\n\n\n軟體工程\n\n\n\n\n\n\n\n\n\nJun 23, 2025\n\n\n\n\n\n\n\n錢塘江水工症候群\n\n\n\n\n\n\n軟體工程\n\n\n\n\n\n\n\n\n\nJun 11, 2025\n\n\n\n\n\n\n\nIT 單位最「顧人怨」的事!？\n\n\n\n\n\n\nIT 維運\n\n\n\n\n\n\n\n\n\nMay 20, 2025\n\n\n\n\n\n\n\n所謂「情資」？\n\n\n\n\n\n\n資安\n\n\n\n\n\n\n\n\n\nApr 30, 2025\n\n\n\n\n\n\n\n臺灣遭受網路攻擊的次數？\n\n\n\n\n\n\n資安\n\n\n\n\n\n\n\n\n\nMar 11, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "對資訊系統發展的幾點省思\n\n\n\n\n\n\n資訊系統\n\n\nIT 維運\n\n\n\n\n\n\n\n\n\nAug 5, 2025\n\n\n\n\n\n\n\n關於密碼(2) - 密碼要設成 N3v@rM1^d! 這樣嗎？\n\n\n\n\n\n\n資安\n\n\nIT 維運\n\n\n\n\n\n\n\n\n\nJul 30, 2025\n\n\n\n\n\n\n\n關於密碼(1) - 為什麼每90天要改密碼？\n\n\n\n\n\n\n資安\n\n\nIT 維運\n\n\n\n\n\n\n\n\n\nJul 30, 2025\n\n\n\n\n\n\n\n事件 vs. 事故\n\n\n\n\n\n\n資安\n\n\nIT 維運\n\n\n\n\n\n\n\n\n\nJul 20, 2025\n\n\n\n\n\n\n\n資安？還是人安？\n\n\n\n\n\n\n資安\n\n\nIT 維運\n\n\n\n\n\n\n\n\n\nJun 30, 2025\n\n\n\n\n\n\n\n客戶其實並不清楚自己想要的是什麼\n\n\n\n\n\n\n軟體工程\n\n\n\n\n\n\n\n\n\nJun 23, 2025\n\n\n\n\n\n\n\n錢塘江水工症候群\n\n\n\n\n\n\n軟體工程\n\n\n\n\n\n\n\n\n\nJun 11, 2025\n\n\n\n\n\n\n\nIT 單位最「顧人怨」的事!？\n\n\n\n\n\n\nIT 維運\n\n\n\n\n\n\n\n\n\nMay 20, 2025\n\n\n\n\n\n\n\n所謂「情資」？\n\n\n\n\n\n\n資安\n\n\n\n\n\n\n\n\n\nApr 30, 2025\n\n\n\n\n\n\n\n臺灣遭受網路攻擊的次數？\n\n\n\n\n\n\n資安\n\n\n\n\n\n\n\n\n\nMar 11, 2025\n\n\n\n\n\n\nNo matching items"
   }
 ]
