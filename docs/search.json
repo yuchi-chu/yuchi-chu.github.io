@@ -25,14 +25,14 @@
     "href": "posts/system-3principles/index.html",
     "title": "對資訊系統發展的幾點省思",
     "section": "",
-    "text": "現今對軟體（資訊系統）的分類大抵可分為三類：(1)嵌入型軟體（Embedded Software），通常是指嵌入在硬體設備中的軟體，比如家電、汽車控制系統、醫療設備等；(2)產品型軟體（Software Product），就是通用的，針對大眾市場的軟體，比如微軟的 Office、Photoshop等，這些產品通常是標準化的，滿足廣泛的需求，藉由販售授權或訂閱等方式盈利； (3)客製型軟體（Taylor-made Software System），指根據特定客戶需求定制的軟體，比如企業內部的ERP系統，或者政府機構的定製解決方案。這類軟體是為特定使用者或組織開發的，滿足個別獨特的需求，可能不會在市場上公開銷售。1\n本文主要聚焦在客製型軟體，主要基於個人就過往工作經驗上的一些觀察及省思，特別是公務機關的資訊系統。雖然現行有些公務機關會採用所謂的「公版」資訊系統（類似產品型軟體，例如差勤系統等），但大多數仍得委託該系統的原開發廠商，根據該機關特殊的「需求」再客製一番，有時候客製的範圍，幾乎與新開發不相上下。而有些私人企業在導入 ERP 系統，或是所謂的企業資訊系統時，也有類似情況，是以容或可類比參考。至於其他二類軟體，由於銷售、盈利模式，及生產邊際成本不同，其考量重點或思考角度有所差異，不在討論範圍。"
+    "text": "現今對軟體（資訊系統）的分類大抵可分為三類：(1)嵌入型軟體（Embedded Software），通常是指嵌入在硬體設備中的軟體，比如家電、汽車控制系統、醫療設備等；(2)產品型軟體（Software Product），就是通用的，滿足一般性需求，針對大眾市場的軟體，比如 Office、Photoshop等，這類軟體的功能通常是標準化的，藉由販售授權或訂閱等方式盈利； (3)客製型軟體（Taylor-made Software System），指根據特定客戶需求定製的軟體，比如企業內部的ERP系統，或者政府機構處理業務的資訊系統（例如公文管理系統、疾病通報系統等），這類軟體是為特定使用者或組織開發的，滿足個別的需求，通常不會在市場上公開銷售。1\n本文係基於個人過往工作經驗上的一些觀察及省思，主要聚焦在客製型軟體，特別是公務機關的資訊系統。雖然現行有些公務機關會採用所謂的「公版」資訊系統（類似產品型軟體，例如差勤系統等），但大多數仍得委託該系統的原開發廠商，根據該機關特殊的需求再客製一番，有時候客製的規模，幾乎與新開發不相上下。此外，有些私人企業在導入 ERP 系統，或是所謂的企業資訊系統時，也會有類似情況，容或可類比參考。至於其他二類軟體，由於銷售、盈利模式，及生產邊際成本不同，其考量重點或思考角度有所差異，不在討論範圍。"
   },
   {
     "objectID": "posts/system-3principles/index.html#footnotes",
     "href": "posts/system-3principles/index.html#footnotes",
     "title": "對資訊系統發展的幾點省思",
     "section": "注釋及參考資料",
-    "text": "注釋及參考資料\n\n\nFernandes, João M., and Ricardo J. Machado. 2016. Requirements in Engineering Projects. Lecture Notes in Management and Industrial Engineering. Cham: Springer International Publishing.↩︎\n中央社，3天前發現通報數有異 陳時中曝「校正回歸」始末https://www.cna.com.tw/news/firstnews/202105220220.aspx↩︎\nWaller, Paul, and V. Weerakkody. 2016. “Digital Government: Overcoming the Systemic Failure of Transformation. Digital Transformation through Policy Design with ICT-Enhanced Instruments.” SSRN Electronic Journal. Elsevier BV.↩︎\n勞動部針對勞動力發展署北基宜花金馬分署 113 年職場霸凌事件重啟行政調查報告↩︎\n勞動部 113 年勞動力發展署北基宜花金馬分署 疑似涉及職場霸凌事件行政調查說明資料↩︎\nBrooks, Frederick P. 1995. The Mythical Man-Month. Essays on Software Engineering, Anniversary Edition. 2 ed. Addison-Wesley Professional.↩︎"
+    "text": "注釋及參考資料\n\n\nFernandes, João M., and Ricardo J. Machado. 2016. Requirements in Engineering Projects. Lecture Notes in Management and Industrial Engineering. Cham: Springer International Publishing.↩︎\n中央社，3天前發現通報數有異 陳時中曝「校正回歸」始末https://www.cna.com.tw/news/firstnews/202105220220.aspx↩︎\nWaller, Paul, and V. Weerakkody. 2016. “Digital Government: Overcoming the Systemic Failure of Transformation. Digital Transformation through Policy Design with ICT-Enhanced Instruments.” SSRN Electronic Journal. Elsevier BV.↩︎\n勞動部針對勞動力發展署北基宜花金馬分署 113 年職場霸凌事件重啟行政調查報告↩︎\n勞動部 113 年勞動力發展署北基宜花金馬分署 疑似涉及職場霸凌事件行政調查說明資料↩︎"
   },
   {
     "objectID": "posts/qiantang-river-engineers/index.html",
