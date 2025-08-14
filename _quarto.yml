@@ -23,6 +23,7 @@ format:
   html:
     theme:
       light: [flatly, styles.scss] 
+    code-fold: false
     fontsize: 18pt #equal to font-size in CSS
     linestretch: 1.4 #equal to line-hieght
     grid: #for landing page only
@@ -37,6 +38,4 @@ format:
     
 
 editor: visual
-
-
 

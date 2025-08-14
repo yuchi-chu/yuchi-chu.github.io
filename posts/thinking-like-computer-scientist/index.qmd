@@ -1,0 +1,183 @@
+---
+title: "電腦科學家如何思考？"
+#author: "Yuchi Chu"
+date: '2025-08-10'
+#image: 100701-1.jpg
+format: 
+  html:
+    code-fold: true
+    
+featured: no
+categories:
+  - 解題方法
+  - 計算思維
+---
+
+本文摘自卡內基梅隆大學電腦科學系（School of Computer Science, CMU）課程：CS 15-299 "How to Think (Like a Computer Scientist)" 教學講義（Lecturer: Steven Rudich, 1996.01.16）
+
+------------------------------------------------------------------------
+
+### 從異位構詞(anagram)說起…
+
+如果有二個英文單詞，其字母相同，但排列順序不同，則稱這二個單詞為異位構詞（anagram）。 簡單來說，就是一個單詞變換其字母的順序（重新排列），可以組成別的單詞，關鍵在於只改變字母順序，不增減字母。 例如，live 是 evil 的異位構詞，mean 是 name 異位構詞；一個單詞可能不存在異位構詞，也可能有多個異位構詞。
+
+所謂異位構詞遊戲，或稱混字遊戲，其規則如下：給定一個單詞，你必須找出這單詞所有的異位構詞，例如，給定"eat", 你必須回應 "ate", "tea", 如果給定 ""subessential", 則你必須回應 "suitableness" 及其他的單詞（如果還有的話）。
+
+> **問題描述**<br> 給定一本有 70,000 個單詞的字典， 請你寫支程式，讓使用者輸入一個單詞，你的程式則回應此字典中針對該單詞的所有異位構詞。
+
+這個問題看似簡單，但想要高效解決，端視你能否洞察資料的特性，並選擇最優化的演算法。一般的程式設計師看完上述問題，可能會立馬在鍵盤上開始敲打類似如下演算法的程式碼：
+
+``` pseudo-code
+1. input X 
+2. loop through all possible ways Y of rearranging X
+     use binary search to look up Y in the dictionary      
+     if Y is found, output Y 
+```
+
+這個程式的演算邏輯大抵是這樣：
+
+1.  針對使用者輸入的單字 X，求出 X 的字母的所有排列所構成的集合 Y，例如： 若 X="cat"，則 Y={cat, cta, act, atc, tca, tac} 共有6種排列情況。
+2.  將 Y 中的每個元素，以二元搜尋法逐一去字典中查詢。如果找到，就輸出該單詞。
+
+這個程式效率如何？由於二元搜尋法的時間複雜度是$\rm log_2N$，以 70,000個單字而言，每次查詢（迴圈）最多作16次的存取，以"cat"這個單詞來看，似乎還OK。
+
+但如果輸入 "microphotographic"，這個詞有 17 個字母，其排列組合共有 $17!=17 \times 16 \times 15 \times \ldots \times 2 \times 1$ 種，所以這個程式大約得執行 $17!\approx 3 \times 10^{14}$ 個迴圈。假設執行一個迴圈耗時 1 微秒（$\mu s, 10^{-6}$秒）， 則此程式共需 $3 \times 10^8$ 秒， 需耗時 10 年（就算是將速度提升到奈秒 $ns, 10^{-9}$秒， 也得約 208 天）！這顯然就不OK了。
+
+換一個資深程式設計師上場，他想到另一種方法。因為字典一共才 70,000 個單字，只要針對輸入的單字， 去字典中「窮舉式」的查詢即可。例如：若 X="cat"，則到字典字逐字查詢，先判斷字母個數同為 3 者， 再看這3個字母是否同時存在 "c", "a", "t"（不管順序如何）。即便使用者輸入 "microphotographic"， 其執行次數亦與 "cat" 相當。這個程式會用到一個副程式， 整個程式的運算邏輯看起來如下：
+
+``` pseudo-code
+1. subroutine anagram? (X, Y)
+     return ture exactly when X and y are anagrams 
+     
+2. input X  
+3. loop through all dictionary words Y      
+     if anagram?(X,Y), output Y 
+```
+
+這個程式看來好多了，它的執行效率不會受到單詞中字母數多寡的影響。以一本70,000個單詞的字典，這個程式大約在 15 秒內可完成全成全部的比對，似乎可以接受了。
+
+### 腦力取勝(cerebral approach)的思維
+
+電腦科學家不會滿意以上的解法。他希望程式的執行時間平均在 $\frac{1}{100}$秒 內完成，他提出一個關鍵的問題與想法：
+
+> 單詞在字典中一定要按照字母順序來排嗎？如果我們將單字在字典中的順序，以另一種方式編排， 會不會讓問題變得更簡單？
+
+首先，我們替每個單詞找到一個**特徵值**（signature），也就將**組成單詞的字母依照其順序排列**。 例如"cat"其組成字母的順序依序為 "a", "c", "t" 所以構成其特徵值 $\Rightarrow$ "act"； 同理"dog"所構成的特徵值 $\Rightarrow$ "dgo"。
+
+```{=html}
+<style>
+.table-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 1em;
+}
+
+.table-col {
+  flex: 1;
+  border: 0px solid #eee;
+  padding: 10px;
+}
+
+/* 表格標題 */
+.table-caption {
+  font-weight: bold;
+  margin: 0 0 0 0 !important; /* 上右下左，大幅減少下方間距 */
+  padding: 0;
+  text-align: center;
+}
+
+/* 表格主體 */
+.table-col table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 0; /* 移除表格上方間距 */
+}
+
+
+/* 新增：調整表格行距 */
+.table-col tr {
+  line-height: 1.2;
+  margin: 0;
+}
+
+.table-col td {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+/* 表格樣式調整 */
+.table-col table {
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 2px solid black;    /* 上邊框加粗 */
+  border-bottom: 2px solid black; /* 下邊框加粗 */
+}
+
+.table-col th,
+.table-col td {
+  padding: 8px;
+  text-align: left;
+  border-left: none;    /* 移除左邊框 */
+  border-right: none;   /* 移除右邊框 */
+  border-bottom: none;  /* 移除所有內部橫線 */
+}
+
+.table-col tr:last-child td {
+  border-bottom: none;  /* 確保最後一行無底線 */
+}
+
+.table-col thead {
+  border-bottom: 1px solid #ddd; /* 保留表頭下方細線（可選） */
+}
+</style>
+```
+
+::::: table-row
+::: table-col
+&#40;a&#41; 找出單詞 signature
+
+| word | signature |
+|------|-----------|
+| cat  | act       |
+| dog  | dgo       |
+| eat  | aet       |
+| god  | dgo       |
+| ate  | aet       |
+| tea  | aet       |
+| act  | act       |
+:::
+
+::: table-col
+&#40;b&#41; 依 signature 排序
+
+| word | signature |
+|------|-----------|
+| cat  | act       |
+| act  | act       |
+| eat  | aet       |
+| ate  | aet       |
+| tea  | aet       |
+| dog  | dgo       |
+| god  | dgo       |
+:::
+:::::
+
+表(a)是算出字典中每個單詞的特徵值後，放在原單詞的右側；然後依特徵值排序，就可以將每個單詞所有的異位構詞集中在一起，形成一個**類別**（class）如表(b)。如此一來，當使用者輸入 eat 時，我們先找到 eat 的特徵值 $\Rightarrow$ "aet"，而後將所有 aet 所對應的單詞輸出（包括 ate, tea），就得到 cat 的所有的異位構詞。這個程式的演算邏輯可以用下列方式表達：
+
+``` pseudo-code
+1. input X
+2. compute the signature of X
+3. use binary search to find the anagram class of X
+4. output all anagrams in the same class as X 
+```
+
+當然，這個程式需要一個前處理動作，也就是建立每個單詞的特徵值，並將其儲存在檔案或列表中，但是這個動作只需處理一次，之後的每個查詢可重複使用此特徵值檔。如此一來，使用者所感受到的查詢速度將以飆速提昇。 有多快？ 每次查詢的回應時間大約是 $\rm \log_2(70,000) \times 25\mu s \approx
+0.0004$秒。
+
+------------------------------------------------------------------------
+
+### 如何變得更聰明?
+
+1. 澈底理解問題的本質，歸納出通用的見解，從不同層次的普遍性中獲得洞見。
+2. 鍥而不捨地探求更簡單的方法解決**看似**複雜的問題。在武術中，初學者動作大而笨拙，進階者動作稍小，而黑帶高手 --- **大師**(master)則只需一個微小、看似輕鬆的動作就能達成目標；在電腦科學領域也一樣。
+

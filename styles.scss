@@ -64,3 +64,30 @@ $font-family-sans-serif: "Roboto Flex", "Noto Sans TC", sans-serif;
     border-left: 5px solid #33ccff; /* Example: Blue line */
     background-color: #dcf5ff;
 }
+
+
+/* 預設展開所有程式區塊 */
+.cell-output-display pre, .cell-output-display div.sourceCode {
+  display: block !important;
+}
+
+/* 隱藏程式區塊的折疊按鈕 */
+.code-fold-btn {
+  display: none !important;
+}
+
+/* 確保內容始終顯示 */
+.cell > .sourceCode, .cell > .cell-output {
+  display: block !important;
+}
+
+/* 修改後的偽代碼區塊樣式 */
+.pseudo-code {
+  background-color: #f5f5f5;
+  padding: 0.3em 0.5em;
+  border-radius: 0px;
+  white-space: pre-wrap;  /* 改為 pre-wrap 允許自動換行 */
+  word-break: break-word; /* 防止長單詞溢出 */
+  line-height: 1.5;       /* 增加行高容納數學符號 */
+  margin: 0.5em 0;
+}

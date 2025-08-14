@@ -1,0 +1,17 @@
+{
+  "hash": "6648b05413f5c6904d5c5c7757d9f089",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"如何像電腦科學家一樣思考\"\n#author: \"Yuchi Chu\"\ndate: '2025-08-05'\n#image: 100701-1.jpg\nformat: \n  html:\n    code-fold: true\n    \nfeatured: no\ncategories:\n  - 解題方法\n  - 思考\n---\n\n\n\n如果有二個英文單詞，其字母相同，但排列順序不同，則稱這二個單詞為異位構詞（anagram）。 簡單來說，就是一個單詞變換其字母的順序（重新排列），可以組成別的單詞，關鍵在於只改變字母順序，不增減字母。 例如，live 是 evil 的異位構詞，mean 是 name 異位構詞；一個單詞可能不存在異位構詞，也可能有多個異位構詞。\n\n所謂異位構詞遊戲，或稱混字遊戲，其規則如下：給定一個單詞，你必須找出這單詞所有的異位構詞，例如，給定\"eat\", 你必須回應 \"ate\", \"tea\", 如果給定 \"\"subessential\", 則你必須回應 \"suitableness\" 及其他的單詞（如果還有的話）。\n\n> **異位構詞遊戲**<br> 給定一本有 70,000 個單詞的字典， 請你寫支程式，讓使用者輸入一個單詞，你的程式則回應此字典中針對該單詞的所有異位構詞。\n\n一般的程式設計師看完上述問題，可能立馬在鍵盤上開始敲打類似 如下演算法的程式碼：\n\n\n```{.pseudo-code }\n1. input X\n2. loop through all possible ways Y of rearranging X\n   use binary search to look up Y in the dictionary\n   if Y is found, output Y\n```\n\n\n\n\n::: {.cell code-tools='false'}\n\n```{.default .no-highlight .cell-code  code-fold=\"false\"}\n# 第一種演算法步驟\n1. input X # 輸入單詞\n2. loop through all possible ways Y of rearranging X\n   use binary search to look up Y in the dictionary\n   if Y is found, output Y\n```\n:::\n\n::: {.cell code-tools='false'}\n\n```{.r .algorithm-block .cell-code  code-fold=\"false\"}\n# 這裡可以寫數學公式 $\\alpha = \\beta + \\gamma$\n# 或演算法步驟\n1. 初始化變數\n2. For i = 1 to N:\n   a. 計算 x_i = f(y_i)\n   b. 更新權重 w_{i} = w_{i-1} + \\Delta w\n3. 輸出結果\n```\n:::\n\n::: {.cell code-tools='false'}\n\n```{.c .algorithm-block .cell-code  code-fold=\"false\"}\n\n# 這裡是演算法步驟\nfor (i in 1:n) {\n  x[i] <- $\\sqrt{\\alpha^2 + \\beta^2}$  # 數學公式\n}\n```\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
