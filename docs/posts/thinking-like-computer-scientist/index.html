@@ -373,7 +373,7 @@ window.Quarto = {
 3. use binary search to find the anagram class of X
 4. output all anagrams in the same class as X </code></pre>
 <p>當然，這個程式需要一個前處理動作，也就是建立每個單詞的特徵值，並將其儲存在檔案或列表中，但是這個動作只需處理一次，之後的每個查詢可重複使用此特徵值檔。如此一來，使用者所感受到的查詢速度將以飆速提昇。 有多快？ 每次查詢的回應時間大約是 <span class="math inline">\(\rm \log_2(70,000) \times 25\mu s \approx
-0.0004\)</span>秒。</p>
+0.0004\)</span>秒（<span class="math inline">\(25\mu s\)</span> 是一次二元搜尋大約所需的時間，現在的電腦應該比這快多了）。</p>
 <hr>
 </section>
 <section id="如何變得更聰明" class="level3">

@@ -14,7 +14,7 @@ subtitle: some academic works and others
 
 3.  朱雨其, 黃素梅, "開放環境資料-現況與未來展望," *國土資訊系統通訊* 第87期, (2013) 33-39. [\[PDF\]](pubs\ngis-2013.pdf)
 
-4.  朱雨其, "環境資訊新服務與展望," *研考雙月刊* 36卷4期, (2012) 102-113.
+4.  朱雨其, "環境資訊創新服務與展望," *研考雙月刊* 36卷4期, (2012) 102-113.
 
 5.  Sheng-Hsiang Wang, et al., “First detailed observations of long-range transported dust over the northern South China Sea” *Atmospheric Environment*, Vol. 45, (2011) 4804-4808. [\[LINK\]](https://www.sciencedirect.com/science/article/abs/pii/S1352231011004663)
 
@@ -98,6 +98,6 @@ subtitle: some academic works and others
 
 ### 學位論文
 
-1.  博士論文：Intregrating Heterogeneous Information Sources through Ontology-Driven Model and Data Quality Analysis, 國立臺灣科技大學 電子工程研究所 計算機組 （2001） [\[LINK\]](https://hdl.handle.net/11296/7uv5zv)
+1.  博士論文：**Intregrating Heterogeneous Information Sources through Ontology-Driven Model and Data Quality Analysis**, 國立臺灣科技大學 電子工程研究所 計算機組 （2001） [\[LINK\]](https://hdl.handle.net/11296/7uv5zv)
 
-2.  碩士論文：一個軟體系統時間限制的驗證方法, 國立臺灣工業技術學院 工程技術研究所（1993）[\[LINK\]](https://hdl.handle.net/11296/b58tpe)
+2.  碩士論文：**一個軟體系統時間限制的驗證方法**, 國立臺灣工業技術學院 工程技術研究所（1993）[\[LINK\]](https://hdl.handle.net/11296/b58tpe)
