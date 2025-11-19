@@ -189,6 +189,26 @@ window.Quarto = {
 <p>密碼的強度（安全性）通常可以用<strong>熵值</strong>（Entropy）來衡量，<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>熵值越高，代表密碼越難被猜測或破解。熵值的計算公式如下：</p>
 <p><span class="math inline">\(H = \log_2 (N^{L})\)</span></p>
 <p>其中，<span class="math inline">\(H\)</span> 代表密碼的熵值；<span class="math inline">\(N\)</span> 是字元集大小（Character Set Size）， 指的是密碼可能包含的字元數量。例如，只包含阿拉伯數字時為10個字元，不區分大小寫的英文字母（a–z 或者 A–Z）是26個字元，區分大小寫的字母再加上數字組合（a–z，A–Z，0–9）則為62個字元，如果包含特殊符號，也就是所有 ASCII 可列印字則為95個字元。<span class="math inline">\(L\)</span> 指的是密碼的長度。</p>
+<p><span class="math display">\[
+\begin{aligned}
+&amp; \mathbb{N}=\{0,1,2,3, \ldots\} &amp;&amp; 自然數包含 ~ 0\\
+&amp; \mathbb{N}^{+}=\{1,2,3, \ldots\} &amp;&amp; 自然數包含 ~ 0\\
+&amp; \mathbb{Z}=\{\ldots,-2,-1,0,1,2, \ldots\} \\
+&amp; \mathbb{Q}=\left\{q=\frac{m}{n}: m \in \mathbb{Z}, n \in \mathbb{N}^{+}\right\} \\
+&amp; \mathbb{R}=\{a \cdot b: a, b \in \mathbb{Z}\} \\
+&amp; \mathbb{R}^{+}=\{x \in \mathbb{R}: x \geq 0\} \\
+&amp; \mathbb{C}=\{a+b i: a, b \in \mathbb{R}\}
+\end{aligned}
+\]</span></p>
+<p><span class="math inline">\(\begin{aligned}
+    &amp; \mathbb{N}=\{0,1,2,3, \ldots\}  &amp;&amp; 自然數包含 ~ 0 \\
+    &amp; \mathbb{N}^{+}=\{1,2,3, \ldots\}  &amp;&amp; 自然數不包含  ~ 0 \\
+    &amp; \mathbb{Z}=\{\ldots,-2,-1,0,1,2, \ldots\} \\
+    &amp; \mathbb{Q}=\left\{q=\frac{m}{n}: m \in \mathbb{Z}, n \in \mathbb{N}^{+}\right\} \\
+    &amp; \mathbb{R}=\{a \cdot b: a, b \in \mathbb{Z}\} \\
+    &amp; \mathbb{R}^{+}=\{x \in \mathbb{R}: x \geq 0\} \\
+    &amp; \mathbb{C}=\{a+b i: a, b \in \mathbb{R}\}
+\end{aligned}\)</span></p>
 <p>下圖是不同字元集和不同密碼長度的熵值。由圖得知，增加字元集<span class="math inline">\(N\)</span>的大小雖然會增加熵值，但其影響遠不如增加密碼長度<span class="math inline">\(L\)</span>來得顯著；例如，只用數字設定密碼（<span class="math inline">\(N=10\)</span>），但密碼長度度為20，其熵值尚大於以所有ASCII為字元集（<span class="math inline">\(N=95\)</span>），但長度僅為10的密碼。由此可知，密碼強度的關鍵是長度，而不是複雜度。</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
