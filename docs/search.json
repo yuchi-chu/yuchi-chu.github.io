@@ -123,14 +123,14 @@
     "href": "posts/critical-thinking/index.html",
     "title": "批判性思考與資安防護課題",
     "section": "",
-    "text": "資安專家、顧問或決策者，面對資安課題時，大多主張導入最新的標準或架構、部署昂貴的防火牆、AI 偵測系統或加密技術等，但往往忽略了資安最核心、也最脆弱的環節，其實是人類的心智活動與決策邏輯。網際網路先驅 Vint Cerf 曾言：「批判性思考是所有防禦工具中最強大的（Among the most powerful of defensive tools is critical thinking.）。」這話發人深省，但具體要如何實踐呢？"
+    "text": "資安專家、顧問或決策者，面對資安課題時，大多主張導入最新的標準或架構、部署昂貴的防火牆、AI 偵測系統或加密技術等，但往往忽略了資安最核心、也最脆弱的環節，其實是人類的心智活動與決策邏輯。網際網路先驅 Vint Cerf 曾言：批判性思考是所有防禦工具中最強大的（Among the most powerful of defensive tools is critical thinking.1 這話發人深省，但具體要如何實踐呢？"
   },
   {
     "objectID": "posts/critical-thinking/index.html#footnotes",
     "href": "posts/critical-thinking/index.html#footnotes",
     "title": "批判性思考與資安防護課題",
     "section": "注釋及參考資料",
-    "text": "注釋及參考資料\n\n\n工商時報，2020/05/07 公股又出包！行員居家辦公遭詐騙45萬美元 金管會作資安二大示警 https://www.ctee.com.tw/news/20200507700809-439803 Accessed:2025.06.30↩︎"
+    "text": "注釋及參考資料\n\n\nSpafford, E., L. Metcalf, J. Dykstra, Cybersecurity Myths and Misconceptions (Foreword by Vint Cerf), Addison-Wesley, 2023.↩︎\n工商時報，2020/05/07 公股又出包！行員居家辦公遭詐騙45萬美元 金管會作資安二大示警 https://www.ctee.com.tw/news/20200507700809-439803 Accessed:2025.06.30↩︎"
   },
   {
     "objectID": "posts/how-many-cyber-attacks/index.html",
