@@ -1,0 +1,17 @@
+
+/* 從 Google Fonts 載入思源宋體 Regular (400) */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400&display=swap');
+
+/* 做法 A：只針對特定的區塊使用思源宋體 */
+.serif-quote {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 400;      /* Regular 字重 */
+  font-size: 1.1em;      /* 稍微放大一點讓漢字更清晰，可自行調整 */
+  line-height: 1.8;      /* 增加行高以提升排版美感 */
+}
+
+/* 做法 B（選擇性）：如果你希望「整份文件所有的 > 引文」都自動變成思源宋體，就加上這段 */
+blockquote {
+  font-family: 'Noto Serif TC', serif !important;
+  font-weight: 400;
+}

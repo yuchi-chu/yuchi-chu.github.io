@@ -3,13 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "想東想西"
+  title: "CHU, Yuchi"
   favicon: /images/favicon.ico
   navbar:
-    title: false
-    logo: /images/logo.png
+    title: "CHU, Yuchi"
+    #logo: /images/logo.png
     logo-alt: ""
     right:
+      #- mazuua.qmd
       - posts.qmd
       - pubs.qmd
   page-footer: 

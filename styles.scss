@@ -26,6 +26,15 @@ $navbar-bg: $oxford-blue;
 $font-family-sans-serif: "Roboto Flex", "Noto Sans TC", sans-serif;
 
 
+/* 左側標題字體大小 */
+.navbar-title {
+  font-size: 1.65rem !important;           /* 保持原有的放大設定 */
+  color: #FFD700 !important;              /* 保持原有的亮黃色 */
+  font-family: Georgia, serif !important; /* 指定為 Georgia 字型 */
+  font-weight: bold !important;           /* 設為粗體 */
+  margin-left: 1cm !important;            /* 距離左邊界 1cm */
+}
+
 
 /* Change the color of the website title in the navbar */
 .navbar-brand {
@@ -91,3 +100,14 @@ $font-family-sans-serif: "Roboto Flex", "Noto Sans TC", sans-serif;
   line-height: 1.5;       /* 增加行高容納數學符號 */
   margin: 0.5em 0;
 }
+
+/* 點擊前（未造訪）的超連結顏色設定為牛津藍 */
+.mazu-link:link {
+  color: #002147 !important; 
+}
+
+/* 補充：預設情況下，點擊過的連結會變成紫色。
+   如果您希望點擊後（已造訪）也維持牛津藍不變，可以把下面這段也加上 */
+/* .mazu-link:visited {
+  color: #002147 !important;
+} */

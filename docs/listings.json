@@ -1,5 +1,12 @@
 [
   {
+    "listing": "/mazuua.html",
+    "items": [
+      "/mazuua/barnacle/index.html",
+      "/mazuua/genesis-3/index.html"
+    ]
+  },
+  {
     "listing": "/posts.html",
     "items": [
       "/posts/critical-thinking/index.html",
