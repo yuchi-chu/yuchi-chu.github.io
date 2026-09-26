@@ -19,7 +19,7 @@ a:visited {
 
 
 body {
-  /* 刪除全字庫正黑體，並把我們自己打包的 'MatsuExtB' 加入備用清單 */
+  /* 把自己打包的 'MatsuExtB' 加入備用清單 */
   font-family: "Noto Sans TC", "Microsoft JhengHei", 'MatsuExtB', sans-serif;
 }
 
