@@ -18,9 +18,9 @@ a:visited {
 }
 
 
-/* 設定網頁的字型順序，把對擴充區黑體支援較好的字型寫在思源黑體後面 */
 body {
-  font-family: "Noto Sans TC", "Microsoft JhengHei", "全字庫正黑體", sans-serif;
+  /* 刪除全字庫正黑體，並把我們自己打包的 'MatsuExtB' 加入備用清單 */
+  font-family: "Noto Sans TC", "Microsoft JhengHei", 'MatsuExtB', sans-serif;
 }
 
 /* 針對這些特定罕用字，包裝一個專屬的 CSS 類別，強行加粗並微調 */
