@@ -1,0 +1,9 @@
+# _metadata.yml 檔案內容
+metadata:
+  ae: '<img src="mt-e.png" style="height:1.0em; vertical-align:-0.2em;" />'
+  ae-cap: '<img src="mt-e.png" style="height:1.0em; position:relative; top:0.2em;" />'
+  me: '<span class="dialect-char">𣍐</span>'
+  ng: '<span class="dialect-char">𠆧</span>'
+  ing: '<span class="dialect-char">伓</span>'
+  sa: '<span class="dialect-char">𡖯</span>'
+  ye: '<span class="dialect-char">𩞫</span>'

@@ -1,0 +1,60 @@
+
+
+/* 以下設定只針對 posts folder 中文章的行高起作用 */
+.content {
+  line-height: 1.6; /* 行高為字體大小的1.6倍 */
+}
+
+a {
+  color: #002147; /* 顯示連結 */
+}
+
+a:hover {
+  color: #33ccff; /* 滑鼠懸停時 */
+}
+
+a:visited {
+  color: #800080; /* 已訪問連結 */
+}
+
+
+/* 設定網頁的字型順序，把對擴充區黑體支援較好的字型寫在思源黑體後面 */
+body {
+  font-family: "Noto Sans TC", "Microsoft JhengHei", "全字庫正黑體", sans-serif;
+}
+
+/* 針對這些特定罕用字，包裝一個專屬的 CSS 類別，強行加粗並微調 */
+
+
+/* 1. 修改罕用字的設定，確保它不干擾整行的排版與縮進 */
+.dialect-char {
+  font-weight: 600;
+  color: #333333;
+  font-family: "全字庫正黑體", "Microsoft JhengHei", sans-serif;
+  
+  /* 【關鍵修正】改為 inline，並改用相對定位來微調高度，完全不影響前後文字 */
+  display: inline; 
+  position: relative;
+  top: -0.05em; /* 正值往上，負值往下，這裡用 -0.05em 稍微往上提 */
+}
+
+
+/* 1. 經文後縮設定（維持原樣，加入 word-break 確保長句安全） */
+.scripture-align {
+  padding-left: 3.5em;   
+  text-indent: -3.5em;  
+  line-height: 1.8;
+  word-break: break-all; /* 確保中文字元在任何地方都能安全換行，不撐破排版 */
+}
+
+/* 2. 【終極修正】底線巨集設定 */
+.underline-gray {
+  display: inline; /* 【最關鍵】必須是 inline，字才能自由換行，絕不影響排版 */
+  
+  /* 改用標準文字裝飾線，並利用現代 CSS 屬性控制粗細與貼近度 */
+  text-decoration: underline;
+  text-decoration-color: #b0b0b0;           /* 設定細底線為灰色 */
+  text-decoration-thickness: 2px;           /* 強制底線為最細的 1 像素 */
+  text-underline-offset: 5px;               /* 【貼近度核心】1px 非常貼近文字，若想更貼近可以設為 0px 或 0.5px */
+}
+
