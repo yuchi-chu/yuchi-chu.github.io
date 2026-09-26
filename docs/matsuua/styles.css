@@ -24,18 +24,21 @@ body {
 }
 
 /* 針對這些特定罕用字，包裝一個專屬的 CSS 類別，強行加粗並微調 */
+@font-face {
+  font-family: 'MatsuExtB';
+  src: url('../fonts/TW-Sung-Ext-B-98_1.subset.woff2') format('woff2'); /* 注意路徑 */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-
-/* 1. 修改罕用字的設定，確保它不干擾整行的排版與縮進 */
 .dialect-char {
-  font-weight: 600;
+  font-family: 'MatsuExtB', "Microsoft JhengHei", sans-serif;
+  font-weight: 600; /* 細明體套用加粗，可以彌補與黑體的視覺落差 */
   color: #333333;
-  font-family: "全字庫正黑體", "Microsoft JhengHei", sans-serif;
-  
-  /* 【關鍵修正】改為 inline，並改用相對定位來微調高度，完全不影響前後文字 */
   display: inline; 
   position: relative;
-  top: -0.05em; /* 正值往上，負值往下，這裡用 -0.05em 稍微往上提 */
+  top: -0.05em; 
 }
 
 
