@@ -26,10 +26,11 @@ featured: no
 
 華語：可不可以? 可以不?（否定詞放中間或尾端均可）<br> 馬祖語（以前寫法）：{{< meta ae >}}使儥? {{< meta ae >}}儥使?<br> 馬祖語（現在寫法）：會使{{< meta me >}}? 會{{< meta me >}}使?<br> 台語：會使袂?（台語似乎沒有「會袂使」的說法）
 
-![福州話聖經主禱文<br>{{< meta ng >}}=儂、{{< meta ae-cap >}}=會](lordpray.png){fig-align="left" width="75%"}
+![福州話聖經主禱文<br>{{< meta ng >}}=儂、{{< meta ae-cap >}}=會](lordpray.png){.lightbox fig-align="left" width="75%"}
 
-莫積錢財落地禮，只塊務蠧魚蛀，會[生鍟黯腐]{.underline-gray}，賊也會開退偷去。㑚積錢財落天禮，許塊毛蠧魚蛀，賣生鍟黯腐，賊也賣開退偷去。因汝錢財著冬那，汝心緒也著冬那。（耶穌登山寶訓）<br> 生鍟黯腐：現寫作「生鉎黯腐」，生銹腐爛的意思。
+<!-- ![福州話聖經主禱文<br>{{< meta ng >}}=儂、{{< meta ae-cap >}}=會](lordpray.png){fig-align="left" width="75%"} -->
 
+莫積錢財落地禮，只塊務蠧魚蛀，會[生鍟黯腐]{.underline-gray}，賊也會開退偷去。㑚積錢財落天禮，許塊毛蠧魚蛀，賣生鍟黯腐，賊也賣開退偷去。因汝錢財著冬那，汝心緒也著冬那。（耶穌登山寶訓）<br> 生[鍟]{.emphasis-circle}黯腐：現寫作「生[鉎]{.emphasis-circle}黯腐」，生銹腐爛的意思。
 
 <!-- 𡖯、儥、仈、𩞫、𣍐、𩸞、俤…… -->
 

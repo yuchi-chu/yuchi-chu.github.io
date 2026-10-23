@@ -3,14 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "CHU, Yuchi"
+  title: "Yuchi CHU"
   favicon: /images/favicon.ico
   navbar:
-    title: "CHU, Yuchi"
+    title: "Yuchi CHU"
     #logo: /images/logo.png
     logo-alt: ""
     right:
       - matsuua.qmd
+      - reading.qmd
       - posts.qmd
       - pubs.qmd
   page-footer: 

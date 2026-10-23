@@ -1,0 +1,25 @@
+---
+title: "讀書筆記"
+subtitle: ""
+
+
+listing:
+  contents: reading
+  sort: 
+    - "date desc"
+    - "title desc"
+  type: default
+  #image-align: right
+  #image-height: "0"
+  fields: [date, title, description, categories]
+  #exclude: [image]  # 完全排除圖片欄位
+  max-description-length: 70 #
+  date-format: medium
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+
+title-block-banner: false
+---
+
