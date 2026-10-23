@@ -20,30 +20,38 @@ a:visited {
 /* 讓內文與所有層級的標題，都套用包含了罕見字的備用字型清單 */
 /* 維持原本 body 的設定 */
 /* 1. 宣告基本區罕字 (包含：熻) */
+/* 1. 宣告基本區罕字 (熻) - 正常版 */
 @font-face {
   font-family: 'MatsuBasic';
-  src: url('fonts/TW-Sung-98_1.subset.woff2') format('woff2'); 
+  src: url('../fonts/TW-Sung-98_1.subset.woff2') format('woff2'); /* 請確認您的路徑是 ../fonts 還是 fonts */
   font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+}
+/* 1-2. 宣告基本區罕字 (熻) - 粗體版 (攔截標題請求) */
+@font-face {
+  font-family: 'MatsuBasic';
+  src: url('../fonts/TW-Sung-98_1.subset.woff2') format('woff2'); 
+  font-weight: bold; 
 }
 
-/* 2. 宣告擴充區罕字 (包含：𡖯、𠆧...) */
+/* 2. 宣告擴充區罕字 (𡖯、𠆧) - 正常版 */
 @font-face {
   font-family: 'MatsuExtB';
-  src: url('fonts/TW-Sung-Ext-B-98_1.subset.woff2') format('woff2'); 
+  src: url('../fonts/TW-Sung-Ext-B-98_1.subset.woff2') format('woff2'); 
   font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+}
+/* 2-2. 宣告擴充區罕字 (𡖯、𠆧) - 粗體版 (攔截標題請求) */
+@font-face {
+  font-family: 'MatsuExtB';
+  src: url('../fonts/TW-Sung-Ext-B-98_1.subset.woff2') format('woff2'); 
+  font-weight: bold; 
 }
 
-/* 3. 統一天下：讓所有內文、標題、列表頁，都優先檢查我們打包的字型 */
+/* 3. 統一天下：優先讓標題與內文檢查罕用字 */
 body, h1, h2, h3, h4, h5, h6,
 .title, 
 .listing-title, 
 .listing-title a, 
 .card-title {
-  /* 注意順序：先找自訂罕字 -> 再找 Noto -> 再找微軟 -> 最後系統預設 */
   font-family: 'MatsuBasic', 'MatsuExtB', "Noto Sans TC", "Microsoft JhengHei", sans-serif !important;
 }
 
