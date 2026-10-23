@@ -21,7 +21,10 @@ a:visited {
 body, h1, h2, h3, h4, h5, h6, .title {
   font-family: "Noto Sans TC", "Microsoft JhengHei", 'MatsuExtB', sans-serif;
 }
-
+body {
+  /* 把自己打包的 'MatsuExtB' 加入備用清單 */
+  font-family: "Noto Sans TC", "Microsoft JhengHei", 'MatsuExtB', sans-serif;
+}
 
 /* 針對這些特定罕用字，包裝一個專屬的 CSS 類別，強行加粗並微調 */
 @font-face {
