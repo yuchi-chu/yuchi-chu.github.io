@@ -17,11 +17,11 @@ a:visited {
   color: #800080; /* 已訪問連結 */
 }
 
-
-body {
-  /* 把自己打包的 'MatsuExtB' 加入備用清單 */
+/* 讓內文與所有層級的標題，都套用包含了罕見字的備用字型清單 */
+body, h1, h2, h3, h4, h5, h6, .title {
   font-family: "Noto Sans TC", "Microsoft JhengHei", 'MatsuExtB', sans-serif;
 }
+
 
 /* 針對這些特定罕用字，包裝一個專屬的 CSS 類別，強行加粗並微調 */
 @font-face {
