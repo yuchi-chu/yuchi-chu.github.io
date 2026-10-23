@@ -19,37 +19,43 @@ a:visited {
 
 /* 讓內文與所有層級的標題，都套用包含了罕見字的備用字型清單 */
 /* 維持原本 body 的設定 */
-body {
-  font-family: "Noto Sans TC", "Microsoft JhengHei", 'MatsuExtB', sans-serif;
-}
-
-/* 針對所有標題與列表頁卡片，強制套用與 body 相同的字型清單 */
-h1, h2, h3, h4, h5, h6,
-.title, 
-.listing-title, 
-.listing-title a, 
-.card-title {
-  font-family: "Noto Sans TC", "Microsoft JhengHei", 'MatsuExtB', sans-serif !important;
-}
-
-/* 針對這些特定罕用字，包裝一個專屬的 CSS 類別，強行加粗並微調 */
+/* 1. 宣告基本區罕字 (包含：熻) */
 @font-face {
-  font-family: 'MatsuExtB';
-  src: url('../fonts/TW-Sung-Ext-B-98_1.subset.woff2') format('woff2'); /* 注意路徑 */
+  font-family: 'MatsuBasic';
+  src: url('fonts/TW-Sung-98_1.subset.woff2') format('woff2'); 
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
+/* 2. 宣告擴充區罕字 (包含：𡖯、𠆧...) */
+@font-face {
+  font-family: 'MatsuExtB';
+  src: url('fonts/TW-Sung-Ext-B-98_1.subset.woff2') format('woff2'); 
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 3. 統一天下：讓所有內文、標題、列表頁，都優先檢查我們打包的字型 */
+body, h1, h2, h3, h4, h5, h6,
+.title, 
+.listing-title, 
+.listing-title a, 
+.card-title {
+  /* 注意順序：先找自訂罕字 -> 再找 Noto -> 再找微軟 -> 最後系統預設 */
+  font-family: 'MatsuBasic', 'MatsuExtB', "Noto Sans TC", "Microsoft JhengHei", sans-serif !important;
+}
+
+/* 4. 讓 dialect-char 標籤也同步支援 */
 .dialect-char {
-  font-family: 'MatsuExtB', "Microsoft JhengHei", sans-serif;
-  font-weight: 600; /* 細明體套用加粗，可以彌補與黑體的視覺落差 */
+  font-family: 'MatsuExtB', 'MatsuBasic', "Microsoft JhengHei", sans-serif;
+  font-weight: 600; 
   color: #333333;
   display: inline; 
   position: relative;
   top: -0.05em; 
 }
-
 
 /* 1. 經文後縮設定（維持原樣，加入 word-break 確保長句安全） */
 .scripture-align {
