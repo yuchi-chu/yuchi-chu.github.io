@@ -17,3 +17,16 @@ a:visited {
   color: #800080; /* 已訪問連結 */
 }
 
+body {
+  /* 將打包的 'MatsuExtB' 加入備用清單，維持思源黑體優先 */
+  font-family: "Noto Sans TC", "Microsoft JhengHei", 'MatsuExtB', sans-serif;
+}
+
+/* 針對這些特定罕用字，包裝一個專屬的 CSS 類別，強行加粗並微調 */
+@font-face {
+  font-family: 'MatsuExtB';
+  src: url('../fonts/TW-Sung-Ext-B-98_1.subset.woff2') format('woff2'); /* 注意路徑 */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
