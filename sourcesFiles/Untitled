@@ -1,0 +1,105 @@
+
+
+/* 以下設定只針對 posts folder 中文章的行高起作用 */
+.content {
+  line-height: 1.6; /* 行高為字體大小的1.6倍 */
+}
+
+a {
+  color: #002147; /* 顯示連結 */
+}
+
+a:hover {
+  color: #33ccff; /* 滑鼠懸停時 */
+}
+
+a:visited {
+  color: #800080; /* 已訪問連結 */
+}
+
+/* 讓內文與所有層級的標題，都套用包含了罕見字的備用字型清單 */
+/* 維持原本 body 的設定 */
+/* 1. 宣告基本區罕字 (包含：熻) */
+/* 1. 宣告基本區罕字 (熻) - 正常版 */
+@font-face {
+  font-family: 'MatsuBasic';
+  src: url('../fonts/TW-Sung-98_1.subset.woff2') format('woff2'); /* 請確認您的路徑是 ../fonts 還是 fonts */
+  font-weight: normal;
+}
+/* 1-2. 宣告基本區罕字 (熻) - 粗體版 (攔截標題請求) */
+@font-face {
+  font-family: 'MatsuBasic';
+  src: url('../fonts/TW-Sung-98_1.subset.woff2') format('woff2'); 
+  font-weight: bold; 
+}
+
+/* 2. 宣告擴充區罕字 (𡖯、𠆧) - 正常版 */
+@font-face {
+  font-family: 'MatsuExtB';
+  src: url('../fonts/TW-Sung-Ext-B-98_1.subset.woff2') format('woff2'); 
+  font-weight: normal;
+}
+/* 2-2. 宣告擴充區罕字 (𡖯、𠆧) - 粗體版 (攔截標題請求) */
+@font-face {
+  font-family: 'MatsuExtB';
+  src: url('../fonts/TW-Sung-Ext-B-98_1.subset.woff2') format('woff2'); 
+  font-weight: bold; 
+}
+
+/* 3. 統一天下：優先讓標題與內文檢查罕用字 */
+body, h1, h2, h3, h4, h5, h6,
+.title, 
+.listing-title, 
+.listing-title a, 
+.card-title {
+  font-family: 'MatsuBasic', 'MatsuExtB', "Noto Sans TC", "Microsoft JhengHei", sans-serif !important;
+}
+
+/* 4. 讓 dialect-char 標籤也同步支援 */
+.dialect-char {
+  font-family: 'MatsuExtB', 'MatsuBasic', "Microsoft JhengHei", sans-serif;
+  font-weight: 600; 
+  color: #333333;
+  display: inline; 
+  position: relative;
+  top: -0.05em; 
+}
+
+/* 1. 經文後縮設定（維持原樣，加入 word-break 確保長句安全） */
+.scripture-align {
+  padding-left: 3.5em;   
+  text-indent: -3.5em;  
+  line-height: 1.8;
+  word-break: break-all; /* 確保中文字元在任何地方都能安全換行，不撐破排版 */
+}
+
+/* 底線巨集設定 */
+.underline-gray {
+  display: inline; /* 【最關鍵】必須是 inline，字才能自由換行，絕不影響排版 */
+  
+  /* 改用標準文字裝飾線，並利用現代 CSS 屬性控制粗細與貼近度 */
+  text-decoration: underline;
+  text-decoration-color: #b0b0b0;           /* 設定細底線為灰色 */
+  text-decoration-thickness: 2px;           /* 強制底線為最細的 1 像素 */
+  text-underline-offset: 5px;               /* 【貼近度核心】1px 非常貼近文字，若想更貼近可以設為 0px 或 0.5px */
+}
+
+/* 著重號（下方小圓圈）設定 */
+.emphasis-circle {
+  display: inline; /* 維持 inline，確保自由換行 */
+  
+  /* 為了廣泛的瀏覽器相容性，建議加上 -webkit- 前綴 */
+  
+  /* 1. 設定形狀 */
+  -webkit-text-emphasis-style: circle;
+  text-emphasis-style: circle; 
+  
+  /* 2. 設定顏色 */
+  -webkit-text-emphasis-color: #b0b0b0;
+  text-emphasis-color: #b0b0b0;
+  
+  /* 3. 設定位置 */
+  -webkit-text-emphasis-position: under;
+  text-emphasis-position: under;
+}
+
