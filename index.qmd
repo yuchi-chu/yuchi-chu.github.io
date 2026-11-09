@@ -9,4 +9,4 @@ about:
 
 ------------------------------------------------------------------------
 
-[馬祖閩東語攀講](matsuua-v1.0.pdf){.mazu-link style="font-size: 1.65em;"} <br>陳高志 方言文集（初稿）
+[碎講馬祖閩東語](matsuua-v1.2.pdf){.mazu-link style="font-size: 1.65em;"} <br>陳高志 方言文集（V1.2）
